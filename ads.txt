@@ -166,10 +166,10 @@ criteo.com, B-068074, DIRECT, 9fac4a4a87c2a44f
 themediagrid.com, Q1VB5D, DIRECT, 35d5010d7789b49d
 improvedigital.com, 1914, RESELLER
 improvedigital.com, 2309, RESELLER
-indexexchange.com, 184311, RESELLER
+indexexchange.com, 184311, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194311, RESELLER
 indexexchange.com, 191876, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 202400, RESELLER, 50b1c356f2c8fc #tam
+indexexchange.com, 202400, RESELLER, 50b1c356f2c5c8fc #tam
 indexexchange.com, 187063, RESELLER, 50b1c356f2c5c8fc #ob
 rubiconproject.com, 23774, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 17262, RESELLER, 0bfd66d529a55807
