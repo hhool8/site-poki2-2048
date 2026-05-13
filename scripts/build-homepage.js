@@ -122,6 +122,10 @@ let html = fs.readFileSync(indexPath, 'utf8');
 
 html = html
   .replace(
+    /<link rel="stylesheet" href="assets\/css\/site\.css(\?v=\d+)?" \/>/,
+    '<link rel="stylesheet" href="assets/css/site.css?v=20260514" />'
+  )
+  .replace(
     /<meta name="description" content="[^"]*" \/>/,
     '<meta name="description" content="Play dynamically ranked 2048 games online by hot score and recent updates. Fast loading, no download, and mobile-friendly gameplay." />'
   )

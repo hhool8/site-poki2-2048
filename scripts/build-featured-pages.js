@@ -48,7 +48,7 @@ const makePage = (game) => {
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${esc(canonical)}" />
   <meta property="og:image" content="https://img.gamepix.com/games/${esc(game.slug)}/icon/${esc(game.slug)}.png?w=640" />
-  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="stylesheet" href="/assets/css/site.css?v=20260514" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
