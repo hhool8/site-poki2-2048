@@ -49,9 +49,9 @@ const makeRelated = (list, currentSlug) => list
   .filter((g) => g.slug !== currentSlug)
   .slice(0, 8)
   .map((g) => {
-    const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
-    const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
-    return `<a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}</span></a>`;
+    const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=180`;
+    const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=180`;
+    return `<a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="180" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}</span></a>`;
   })
   .join('\n        ');
 
