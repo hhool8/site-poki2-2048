@@ -74,16 +74,29 @@ button.play-now {
 
 a.tile {
   display: block;
-  padding: 12px;
   border: 1px solid var(--ring);
   border-radius: 12px;
   text-decoration: none;
   color: inherit;
   background: #fff;
+  overflow: hidden;
 }
 
 a.tile:hover {
   border-color: var(--accent);
+}
+
+.tile-thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  background: #eef3fb;
+}
+
+.tile-body {
+  display: block;
+  padding: 12px;
 }
 
 small.kbd {

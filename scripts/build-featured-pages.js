@@ -21,7 +21,10 @@ const makeRelated = (list, currentSlug) => {
   return list
     .filter((g) => g.slug !== currentSlug)
     .slice(0, 6)
-    .map((g) => `<a class="tile" href="/games/${g.slug}">${esc(g.title)}</a>`)
+    .map((g) => {
+      const thumb = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+      return `<a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(thumb)}" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}</span></a>`;
+    })
     .join('\n        ');
 };
 

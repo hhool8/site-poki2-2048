@@ -88,12 +88,14 @@ const recentGames = [...games]
 const hero = hotGames[0];
 
 const hotTiles = hotGames.map((g) => {
-  return `        <a class="tile" href="/games/${g.slug}">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></a>`;
+  const thumb = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(thumb)}" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></span></a>`;
 }).join('\n');
 
 const recentTiles = recentGames.map((g) => {
   const stamp = g.updatedAt ? new Date(g.updatedAt).toISOString().slice(0, 10) : 'N/A';
-  return `        <a class="tile" href="/games/${g.slug}">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></a>`;
+  const thumb = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(thumb)}" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></span></a>`;
 }).join('\n');
 
 const featuredSection = [
