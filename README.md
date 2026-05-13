@@ -30,6 +30,16 @@ Regenerate route candidates:
 node scripts/build-route-candidates.js
 ```
 
+Generate game pages:
+
+```bash
+# Featured 18 pages
+npm run pages:build:featured
+
+# Full strict catalog pages (102) + sitemap refresh
+npm run pages:build:all
+```
+
 ## Release Commands
 
 ```bash
@@ -50,8 +60,8 @@ Built-in checks run in this order:
 
 1. Connect this folder to your hosting pipeline (Cloudflare Pages recommended).
 2. Set custom domain to `2048.poki2.online`.
-3. Publish `pages/index.html` as homepage.
-4. Publish variant pages: `cupcakes.html`, `3d.html`, `multiplayer.html`.
+3. Publish `index.html` as homepage.
+4. Publish all generated pages under `games/`.
 5. Submit `sitemap.xml` in Google Search Console.
 6. Run weekly optimization loop from `docs/weekly-ops-sop.md`.
 

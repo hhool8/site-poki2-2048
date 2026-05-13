@@ -8,6 +8,8 @@
     "precheck": "./scripts/release-precheck.sh",
     "release": "./scripts/release.sh",
     "release:deploy": "./scripts/release.sh --deploy",
-    "routes:build": "node ./scripts/build-route-candidates.js"
+    "routes:build": "node ./scripts/build-route-candidates.js",
+    "pages:build:featured": "node ./scripts/build-featured-pages.js",
+    "pages:build:all": "node ./scripts/build-route-pages.js"
   }
 }
