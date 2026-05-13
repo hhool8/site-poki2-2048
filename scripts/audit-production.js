@@ -44,16 +44,19 @@ function todayStamp() {
 
 function checkGamePage(url, html, status) {
   const hasTitle = /<title>[^<]+<\/title>/i.test(html);
+  const metaDescription = /<meta\s+name="description"\s+content="[^"]+"\s*\/>/i.test(html);
   const canonical = new RegExp(`<link\\s+rel="canonical"\\s+href="${escRegex(url)}"\\s*\\/>`, 'i').test(html);
-  const og = /<meta\s+property="og:title"\s+content="[^"]+"\s*\/>/i.test(html) &&
-    /<meta\s+property="og:description"\s+content="[^"]+"\s*\/>/i.test(html);
+  const ogTitle = /<meta\s+property="og:title"\s+content="[^"]+"\s*\/>/i.test(html);
+  const ogDescription = /<meta\s+property="og:description"\s+content="[^"]+"\s*\/>/i.test(html);
+  const ogUrl = new RegExp(`<meta\\s+property="og:url"\\s+content="${escRegex(url)}"\\s*\\/>`, 'i').test(html);
+  const ogImage = /<meta\s+property="og:image"\s+content="https:\/\/img\.gamepix\.com\/games\/[^"]+"\s*\/>/i.test(html);
   const jsonLd = /<script\s+type="application\/ld\+json">[\s\S]*?"@type"\s*:\s*"VideoGame"[\s\S]*?<\/script>/i.test(html);
   const iframeDirect = /<iframe\s+src="https:\/\/play\.gamepix\.com\//i.test(html);
   const noPlayButton = !/class="play-now"/i.test(html);
   const thumb320x180 = /class="tile-thumb"[\s\S]*?w=320(?:&amp;|&)h=180/i.test(html);
   const thumbCoverOrFallback = /\/cover\/[^"]+w=320(?:&amp;|&)h=180/i.test(html) && /onerror=/i.test(html);
 
-  const pass = status === 200 && hasTitle && canonical && og && jsonLd && iframeDirect && noPlayButton && thumb320x180 && thumbCoverOrFallback;
+  const pass = status === 200 && hasTitle && metaDescription && canonical && ogTitle && ogDescription && ogUrl && ogImage && jsonLd && iframeDirect && noPlayButton && thumb320x180 && thumbCoverOrFallback;
 
   return {
     url,
@@ -61,8 +64,12 @@ function checkGamePage(url, html, status) {
     pass,
     checks: {
       hasTitle,
+      metaDescription,
       canonical,
-      og,
+      ogTitle,
+      ogDescription,
+      ogUrl,
+      ogImage,
       jsonLd,
       iframeDirect,
       noPlayButton,
@@ -105,6 +112,13 @@ function checkGamePage(url, html, status) {
   const home = await fetchUrl(`${BASE}/`);
   const homeChecks = {
     status200: home.status === 200,
+    title: /<title>[^<]+<\/title>/i.test(home.body),
+    metaDescription: /<meta\s+name="description"\s+content="[^"]+"\s*\/>/i.test(home.body),
+    canonical: /<link\s+rel="canonical"\s+href="https:\/\/2048\.poki2\.online\/"\s*\/>/i.test(home.body),
+    ogTitle: /<meta\s+property="og:title"\s+content="[^"]+"\s*\/>/i.test(home.body),
+    ogDescription: /<meta\s+property="og:description"\s+content="[^"]+"\s*\/>/i.test(home.body),
+    ogUrl: /<meta\s+property="og:url"\s+content="https:\/\/2048\.poki2\.online\/"\s*\/>/i.test(home.body),
+    ogImage: /<meta\s+property="og:image"\s+content="https:\/\/2048\.poki2\.online\/assets\/og\/2048-collection\.jpg"\s*\/>/i.test(home.body),
     cssVersioned: /assets\/css\/site\.css\?v=20260514/i.test(home.body),
     thumb320x180: /class="tile-thumb"[\s\S]*?w=320(?:&amp;|&)h=180/i.test(home.body),
     iframeDirect: /<iframe\s+src="https:\/\/play\.gamepix\.com\//i.test(home.body)
