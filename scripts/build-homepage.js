@@ -88,14 +88,16 @@ const recentGames = [...games]
 const hero = hotGames[0];
 
 const hotTiles = hotGames.map((g) => {
-  const thumb = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
-  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(thumb)}" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></span></a>`;
+  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
+  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></span></a>`;
 }).join('\n');
 
 const recentTiles = recentGames.map((g) => {
   const stamp = g.updatedAt ? new Date(g.updatedAt).toISOString().slice(0, 10) : 'N/A';
-  const thumb = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
-  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(thumb)}" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></span></a>`;
+  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
+  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></span></a>`;
 }).join('\n');
 
 const featuredSection = [
