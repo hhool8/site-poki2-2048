@@ -1,6 +1,12 @@
 function mountGame(buttonEl) {
   var shell = document.getElementById("game-shell");
-  var src = buttonEl.getAttribute("data-embed-src");
+  var trigger = buttonEl;
+
+  if (!trigger) {
+    trigger = shell ? shell.querySelector(".play-now[data-embed-src]") : null;
+  }
+
+  var src = trigger ? trigger.getAttribute("data-embed-src") : null;
 
   if (!shell || !src || shell.getAttribute("data-mounted") === "1") {
     return;
@@ -26,4 +32,8 @@ document.addEventListener("click", function (event) {
   if (target && target.classList.contains("play-now")) {
     mountGame(target);
   }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  mountGame();
 });

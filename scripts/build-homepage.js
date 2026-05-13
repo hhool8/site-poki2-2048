@@ -125,7 +125,7 @@ html = html
   )
   .replace(
     /<p>Start with [^<]*<\/p>/,
-    `<p>Start with ${esc(hero.title)}. Click to load the game embed.</p>`
+    `<p>Start with ${esc(hero.title)}. The game area loads automatically.</p>`
   )
   .replace(
     /<button class="play-now" data-embed-src="[^"]*">Play Now<\/button>/,

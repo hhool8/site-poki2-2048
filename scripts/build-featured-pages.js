@@ -72,7 +72,7 @@ const makePage = (game) => {
       <div id="game-shell" class="game-shell">
         <div class="embed-placeholder">
           <div>
-            <p>Click to load ${esc(game.title)}.</p>
+            <p>${esc(game.title)} loads automatically. If it does not appear, press play.</p>
             <button class="play-now" data-embed-src="${esc(game.url)}">Play ${esc(game.title)}</button>
           </div>
         </div>
