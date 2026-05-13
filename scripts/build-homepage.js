@@ -88,12 +88,12 @@ const recentGames = [...games]
 const hero = hotGames[0];
 
 const hotTiles = hotGames.map((g) => {
-  return `        <a class="tile" href="/games/${g.slug}.html">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></a>`;
+  return `        <a class="tile" href="/games/${g.slug}">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></a>`;
 }).join('\n');
 
 const recentTiles = recentGames.map((g) => {
   const stamp = g.updatedAt ? new Date(g.updatedAt).toISOString().slice(0, 10) : 'N/A';
-  return `        <a class="tile" href="/games/${g.slug}.html">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></a>`;
+  return `        <a class="tile" href="/games/${g.slug}">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></a>`;
 }).join('\n');
 
 const featuredSection = [

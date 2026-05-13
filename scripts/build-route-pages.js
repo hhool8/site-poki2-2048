@@ -48,13 +48,13 @@ const games = candidates
 const makeRelated = (list, currentSlug) => list
   .filter((g) => g.slug !== currentSlug)
   .slice(0, 8)
-  .map((g) => `<a class="tile" href="/games/${g.slug}.html">${esc(g.title)}</a>`)
+  .map((g) => `<a class="tile" href="/games/${g.slug}">${esc(g.title)}</a>`)
   .join('\n        ');
 
 const makePage = (game) => {
   const title = `${game.title} Unblocked - Play ${game.title} Online`;
   const description = `Play ${game.title} online in your browser with no download. Enjoy smooth controls, fast loading, and related 2048 variants on 2048.poki2.online.`;
-  const canonical = `https://2048.poki2.online/games/${game.slug}.html`;
+  const canonical = `https://2048.poki2.online/games/${game.slug}`;
   const related = makeRelated(games, game.slug);
 
   return `<!doctype html>
@@ -143,7 +143,7 @@ const sitemapEntries = games
   .map((g) => {
     return [
       '  <url>',
-      `    <loc>https://2048.poki2.online/games/${g.slug}.html</loc>`,
+      `    <loc>https://2048.poki2.online/games/${g.slug}</loc>`,
       '    <changefreq>weekly</changefreq>',
       '    <priority>0.8</priority>',
       '  </url>'

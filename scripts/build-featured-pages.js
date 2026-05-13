@@ -21,7 +21,7 @@ const makeRelated = (list, currentSlug) => {
   return list
     .filter((g) => g.slug !== currentSlug)
     .slice(0, 6)
-    .map((g) => `<a class="tile" href="/games/${g.slug}.html">${esc(g.title)}</a>`)
+    .map((g) => `<a class="tile" href="/games/${g.slug}">${esc(g.title)}</a>`)
     .join('\n        ');
 };
 
