@@ -74,8 +74,9 @@ button.play-now {
 
 a.tile {
   display: block;
-  border: 1px solid var(--ring);
-  padding: 1px;
+  position: relative;
+  border: 0;
+  padding: 2px;
   border-radius: 12px;
   text-decoration: none;
   color: inherit;
@@ -83,7 +84,17 @@ a.tile {
   overflow: hidden;
 }
 
-a.tile:hover {
+a.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--ring);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+a.tile:hover::before {
   border-color: var(--accent);
 }
 
