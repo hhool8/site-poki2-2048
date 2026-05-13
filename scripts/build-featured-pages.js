@@ -70,12 +70,7 @@ const makePage = (game) => {
         Use this variant to train board discipline, merge timing, and consistency under pressure.
       </p>
       <div id="game-shell" class="game-shell">
-        <div class="embed-placeholder">
-          <div>
-            <p>${esc(game.title)} loads automatically. If it does not appear, press play.</p>
-            <button class="play-now" data-embed-src="${esc(game.url)}">Play ${esc(game.title)}</button>
-          </div>
-        </div>
+        <iframe src="${esc(game.url)}" title="${esc(game.title)} embed" loading="eager" allowfullscreen style="width:100%;min-height:420px;border:0;border-radius:12px;"></iframe>
       </div>
     </section>
 

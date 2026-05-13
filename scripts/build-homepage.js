@@ -125,12 +125,20 @@ html = html
   )
   .replace(
     /<p>Start with [^<]*<\/p>/,
-    `<p>Start with ${esc(hero.title)}. The game area loads automatically.</p>`
-  )
-  .replace(
-    /<button class="play-now" data-embed-src="[^"]*">Play Now<\/button>/,
-    `<button class="play-now" data-embed-src="${esc(hero.url)}">Play Now</button>`
+    `<p>Start with ${esc(hero.title)}. The game area is rendered directly for instant play.</p>`
   );
+
+const homeEmbed = [
+  '      <div id="game-shell" class="game-shell" data-mounted="1">',
+  `        <iframe src="${esc(hero.url)}" title="${esc(hero.title)} embed" loading="eager" allowfullscreen style="width:100%;min-height:420px;border:0;border-radius:12px;"></iframe>`,
+  '      </div>',
+  '      <small class="kbd">Tip: press F11 for full screen play.</small>'
+].join('\n');
+
+html = html.replace(
+  /<div id="game-shell" class="game-shell">[\s\S]*?<\/div>\s*<small class="kbd">[\s\S]*?<\/small>/,
+  homeEmbed
+);
 
 const oldFeaturedRegex = /\s*<section class="card">\s*<h2>(Featured 2048 Variants to Play Online|Hot 2048 Games \(Weighted\))<\/h2>[\s\S]*?<\/section>/;
 if (!oldFeaturedRegex.test(html)) {
