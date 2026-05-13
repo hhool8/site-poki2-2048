@@ -1,0 +1,65 @@
+{
+  "collection": "2048 Unblocked Collection",
+  "domain": "https://2048.poki2.online",
+  "provider": {
+    "name": "GamePix",
+    "embedSid": "724L4"
+  },
+  "catalog": {
+    "strictCategory": "2048",
+    "totalGames": 102,
+    "fullGamesFile": "data/gamepix-category-2048-games.json",
+    "fullUrlsFile": "data/gamepix-category-2048-urls.txt",
+    "featuredGamesFile": "data/gamepix-2048-featured.json"
+  },
+  "launchGames": [
+    {
+      "slug": "2048",
+      "name": "Classic 2048",
+      "embedUrl": "https://play.gamepix.com/2048/embed?sid=724L4",
+      "route": "/",
+      "intent": ["2048 unblocked", "play 2048 online"],
+      "difficulty": "core"
+    },
+    {
+      "slug": "2048-x2-merge-blocks",
+      "name": "2048 X2 Merge Blocks",
+      "embedUrl": "https://play.gamepix.com/2048-x2-merge-blocks/embed?sid=724L4",
+      "route": "/x2",
+      "intent": ["2048 x2", "2048 merge blocks"],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "chain-cube-2048-3d-1",
+      "name": "Chain Cube 2048 3D",
+      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-1/embed?sid=724L4",
+      "route": "/3d",
+      "intent": ["2048 3d game", "chain cube 2048"],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "snake-2048-io",
+      "name": "Snake 2048.io",
+      "embedUrl": "https://play.gamepix.com/snake-2048-io/embed?sid=724L4",
+      "route": "/snake",
+      "intent": ["snake 2048", "2048 io"],
+      "difficulty": "emerging"
+    },
+    {
+      "slug": "solitaire-puzzle-2048",
+      "name": "Solitaire Puzzle 2048",
+      "embedUrl": "https://play.gamepix.com/solitaire-puzzle-2048/embed?sid=724L4",
+      "route": "/solitaire",
+      "intent": ["solitaire puzzle 2048", "card 2048"],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-grabber-race-to-2048",
+      "name": "Merge Grabber Race to 2048",
+      "embedUrl": "https://play.gamepix.com/merge-grabber-race-to-2048/embed?sid=724L4",
+      "route": "/race",
+      "intent": ["2048 race game", "merge grabber 2048"],
+      "difficulty": "long-tail"
+    }
+  ]
+}

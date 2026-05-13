@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}" />
+  <link rel="canonical" href="{{CANONICAL_URL}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{TITLE}}" />
+  <meta property="og:description" content="{{DESCRIPTION}}" />
+  <meta property="og:url" content="{{CANONICAL_URL}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero card">
+      <h1>{{H1}}</h1>
+      <p>{{INTRO}}</p>
+      <div id="game-shell" class="game-shell">
+        <div class="embed-placeholder">
+          <div>
+            <p>{{HERO_PROMPT}}</p>
+            <button class="play-now" data-embed-src="{{EMBED_URL}}">Play {{GAME_NAME}}</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>{{CONTENT_H2}}</h2>
+      <p>{{CONTENT_P1}}</p>
+      <h3>{{CONTENT_H3_A}}</h3>
+      <p>{{CONTENT_P2}}</p>
+      <h3>{{CONTENT_H3_B}}</h3>
+      <p>{{CONTENT_P3}}</p>
+    </section>
+
+    <section class="card">
+      <h2>Related 2048 Games</h2>
+      <div class="grid">
+        {{RELATED_TILES}}
+      </div>
+      <p><a href="/">Back to 2048 Collection</a></p>
+    </section>
+  </main>
+
+  <script src="/assets/js/site.js" defer></script>
+</body>
+</html>

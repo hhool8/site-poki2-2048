@@ -1,0 +1,97 @@
+{
+  "count": 18,
+  "generatedAt": "2026-05-13T17:50:12.345Z",
+  "source": "gamepix-category-2048-games.json",
+  "games": [
+    {
+      "slug": "2048-2048",
+      "title": "20482048",
+      "url": "https://play.gamepix.com/2048-2048/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-air-vehicles",
+      "title": "2048 Air Vehicles",
+      "url": "https://play.gamepix.com/2048-air-vehicles/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-animals",
+      "title": "2048 Animals",
+      "url": "https://play.gamepix.com/2048-animals/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-balls-puzzle",
+      "title": "2048 Balls Puzzle",
+      "url": "https://play.gamepix.com/2048-balls-puzzle/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-ballz",
+      "title": "2048 Ballz",
+      "url": "https://play.gamepix.com/2048-ballz/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-bears",
+      "title": "2048 Bears",
+      "url": "https://play.gamepix.com/2048-bears/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-blocks-destruction",
+      "title": "2048 - Blocks Destruction",
+      "url": "https://play.gamepix.com/2048-blocks-destruction/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-champion",
+      "title": "2048 Champion",
+      "url": "https://play.gamepix.com/2048-champion/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-classic-puzzle-challenge",
+      "title": "2048 Classic Puzzle - Challenge",
+      "url": "https://play.gamepix.com/2048-classic-puzzle-challenge/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-clicker",
+      "title": "2048 Clicker",
+      "url": "https://play.gamepix.com/2048-clicker/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-cube-run",
+      "title": "2048 Cube Run",
+      "url": "https://play.gamepix.com/2048-cube-run/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-foodies",
+      "title": "2048 Foodies",
+      "url": "https://play.gamepix.com/2048-foodies/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-hex-chain-merge",
+      "title": "2048 Hex Chain Merge",
+      "url": "https://play.gamepix.com/2048-hex-chain-merge/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-land-vehicles",
+      "title": "2048 Land Vehicles",
+      "url": "https://play.gamepix.com/2048-land-vehicles/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-level-12",
+      "title": "2048 Level 12",
+      "url": "https://play.gamepix.com/2048-level-12/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-match-balls",
+      "title": "2048 Match Balls",
+      "url": "https://play.gamepix.com/2048-match-balls/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-merge",
+      "title": "2048 Merge",
+      "url": "https://play.gamepix.com/2048-merge/embed?sid=724L4"
+    },
+    {
+      "slug": "2048-number-ball",
+      "title": "2048 Number Ball",
+      "url": "https://play.gamepix.com/2048-number-ball/embed?sid=724L4"
+    }
+  ]
+}

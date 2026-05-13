@@ -1,0 +1,13 @@
+{
+  "name": "site-poki2-2048",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Release scripts for 2048.poki2.online",
+  "scripts": {
+    "seo:check": "./scripts/check-seo.sh",
+    "precheck": "./scripts/release-precheck.sh",
+    "release": "./scripts/release.sh",
+    "release:deploy": "./scripts/release.sh --deploy",
+    "routes:build": "node ./scripts/build-route-candidates.js"
+  }
+}
