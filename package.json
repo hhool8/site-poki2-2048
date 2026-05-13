@@ -8,6 +8,7 @@
     "precheck": "./scripts/release-precheck.sh",
     "release": "./scripts/release.sh",
     "release:deploy": "./scripts/release.sh --deploy",
+    "audit:prod": "node ./scripts/audit-production.js",
     "routes:build": "node ./scripts/build-route-candidates.js",
     "pages:build:featured": "node ./scripts/build-featured-pages.js",
     "homepage:build": "node ./scripts/build-homepage.js",
