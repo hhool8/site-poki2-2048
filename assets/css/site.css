@@ -75,6 +75,7 @@ button.play-now {
 a.tile {
   display: block;
   border: 1px solid var(--ring);
+  padding: 1px;
   border-radius: 12px;
   text-decoration: none;
   color: inherit;
@@ -92,11 +93,12 @@ a.tile:hover {
   object-fit: cover;
   display: block;
   background: #eef3fb;
+  border-radius: 10px 10px 0 0;
 }
 
 .tile-body {
   display: block;
-  padding: 12px;
+  padding: 11px 12px 12px;
 }
 
 small.kbd {
