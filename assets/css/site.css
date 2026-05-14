@@ -198,12 +198,17 @@ main {
   padding: 14px;
   box-shadow: 0 10px 34px rgba(0, 0, 0, 0.24);
   color: var(--ink);
+  margin-bottom: 18px;
+}
+
+.card:last-of-type {
+  margin-bottom: 0;
 }
 
 .hero {
   display: grid;
   gap: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #0b0b18 0%, #1a1008 55%, #101522 100%);
@@ -291,14 +296,14 @@ a.tile:hover {
 .tile-body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   overflow: hidden;
-  min-height: 42px;
-  padding: 7px 11px 9px;
+  min-height: 58px;
+  padding: 8px 11px 10px;
   border-top: 1px solid var(--ring);
   background: rgba(8, 8, 15, 0.78);
   font-size: 0.84rem;
-  line-height: 1.16;
+  line-height: 1.2;
 }
 
 small.kbd {
