@@ -7,58 +7,1351 @@
   },
   "catalog": {
     "strictCategory": "2048",
-    "totalGames": 102,
-    "fullGamesFile": "data/gamepix-category-2048-games.json",
-    "fullUrlsFile": "data/gamepix-category-2048-urls.txt",
-    "featuredGamesFile": "data/gamepix-2048-featured.json"
+    "totalGames": 122,
+    "source": "h5games_poki2_gamepix/src/data/games.json",
+    "extractedAt": "2026-05-14T13:47:31.156Z"
   },
   "launchGames": [
     {
+      "slug": "merge-royal",
+      "name": "Merge Royal",
+      "embedUrl": "https://play.gamepix.com/merge-royal/embed?sid=724L4",
+      "route": "/games/merge-royal",
+      "intent": [
+        "play merge royal",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
       "slug": "2048",
-      "name": "Classic 2048",
+      "name": "2048",
       "embedUrl": "https://play.gamepix.com/2048/embed?sid=724L4",
       "route": "/",
-      "intent": ["2048 unblocked", "play 2048 online"],
-      "difficulty": "core"
+      "intent": [
+        "play 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
     },
     {
       "slug": "2048-x2-merge-blocks",
       "name": "2048 X2 Merge Blocks",
       "embedUrl": "https://play.gamepix.com/2048-x2-merge-blocks/embed?sid=724L4",
-      "route": "/x2",
-      "intent": ["2048 x2", "2048 merge blocks"],
-      "difficulty": "long-tail"
-    },
-    {
-      "slug": "chain-cube-2048-3d-1",
-      "name": "Chain Cube 2048 3D",
-      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-1/embed?sid=724L4",
-      "route": "/3d",
-      "intent": ["2048 3d game", "chain cube 2048"],
+      "route": "/games/2048-x2-merge-blocks",
+      "intent": [
+        "play 2048 x2 merge blocks",
+        "2048 online"
+      ],
       "difficulty": "long-tail"
     },
     {
       "slug": "snake-2048-io",
       "name": "Snake 2048.io",
       "embedUrl": "https://play.gamepix.com/snake-2048-io/embed?sid=724L4",
-      "route": "/snake",
-      "intent": ["snake 2048", "2048 io"],
-      "difficulty": "emerging"
+      "route": "/games/snake-2048-io",
+      "intent": [
+        "play snake 2048.io",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
     },
     {
-      "slug": "solitaire-puzzle-2048",
-      "name": "Solitaire Puzzle 2048",
-      "embedUrl": "https://play.gamepix.com/solitaire-puzzle-2048/embed?sid=724L4",
-      "route": "/solitaire",
-      "intent": ["solitaire puzzle 2048", "card 2048"],
+      "slug": "2048-classic-puzzle-challenge",
+      "name": "2048 Classic Puzzle - Challenge",
+      "embedUrl": "https://play.gamepix.com/2048-classic-puzzle-challenge/embed?sid=724L4",
+      "route": "/games/2048-classic-puzzle-challenge",
+      "intent": [
+        "play 2048 classic puzzle - challenge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-cube-run",
+      "name": "2048 Cube Run",
+      "embedUrl": "https://play.gamepix.com/2048-cube-run/embed?sid=724L4",
+      "route": "/games/2048-cube-run",
+      "intent": [
+        "play 2048 cube run",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "falling-blocks-2048",
+      "name": "Falling Blocks 2048 - 2D",
+      "embedUrl": "https://play.gamepix.com/falling-blocks-2048/embed?sid=724L4",
+      "route": "/games/falling-blocks-2048",
+      "intent": [
+        "play falling blocks 2048 - 2d",
+        "2048 online"
+      ],
       "difficulty": "long-tail"
     },
     {
       "slug": "merge-grabber-race-to-2048",
       "name": "Merge Grabber Race to 2048",
       "embedUrl": "https://play.gamepix.com/merge-grabber-race-to-2048/embed?sid=724L4",
-      "route": "/race",
-      "intent": ["2048 race game", "merge grabber 2048"],
+      "route": "/games/merge-grabber-race-to-2048",
+      "intent": [
+        "play merge grabber race to 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "jelly-run-in-2048",
+      "name": "Jelly Run in 2048",
+      "embedUrl": "https://play.gamepix.com/jelly-run-in-2048/embed?sid=724L4",
+      "route": "/games/jelly-run-in-2048",
+      "intent": [
+        "play jelly run in 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-cubes",
+      "name": "Merge Cubes",
+      "embedUrl": "https://play.gamepix.com/merge-cubes/embed?sid=724L4",
+      "route": "/games/merge-cubes",
+      "intent": [
+        "play merge cubes",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-fnaf",
+      "name": "2048 - FNAF",
+      "embedUrl": "https://play.gamepix.com/2048-fnaf/embed?sid=724L4",
+      "route": "/games/2048-fnaf",
+      "intent": [
+        "play 2048 - fnaf",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "match-4",
+      "name": "Match 4",
+      "embedUrl": "https://play.gamepix.com/match-4/embed?sid=724L4",
+      "route": "/games/match-4",
+      "intent": [
+        "play match 4",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "chain-cube-2048-3d-1",
+      "name": "Chain Cube 2048 3D",
+      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-1/embed?sid=724L4",
+      "route": "/games/chain-cube-2048-3d-1",
+      "intent": [
+        "play chain cube 2048 3d",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "falling-numbers-2048-puzzle",
+      "name": "Falling Numbers - 2048 puzzle",
+      "embedUrl": "https://play.gamepix.com/falling-numbers-2048-puzzle/embed?sid=724L4",
+      "route": "/games/falling-numbers-2048-puzzle",
+      "intent": [
+        "play falling numbers - 2048 puzzle",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "solitaire-puzzle-2048",
+      "name": "Solitaire Puzzle 2048",
+      "embedUrl": "https://play.gamepix.com/solitaire-puzzle-2048/embed?sid=724L4",
+      "route": "/games/solitaire-puzzle-2048",
+      "intent": [
+        "play solitaire puzzle 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-cubes-2048-3d",
+      "name": "Merge Cubes 2048 3D",
+      "embedUrl": "https://play.gamepix.com/merge-cubes-2048-3d/embed?sid=724L4",
+      "route": "/games/merge-cubes-2048-3d",
+      "intent": [
+        "play merge cubes 2048 3d",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "falling-fruits",
+      "name": "Falling Fruits",
+      "embedUrl": "https://play.gamepix.com/falling-fruits/embed?sid=724L4",
+      "route": "/games/falling-fruits",
+      "intent": [
+        "play falling fruits",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "fruit-festival",
+      "name": "Fruit Festival",
+      "embedUrl": "https://play.gamepix.com/fruit-festival/embed?sid=724L4",
+      "route": "/games/fruit-festival",
+      "intent": [
+        "play fruit festival",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "emoji-blush",
+      "name": "Emoji Blush",
+      "embedUrl": "https://play.gamepix.com/emoji-blush/embed?sid=724L4",
+      "route": "/games/emoji-blush",
+      "intent": [
+        "play emoji blush",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-number-ball",
+      "name": "2048 Number Ball",
+      "embedUrl": "https://play.gamepix.com/2048-number-ball/embed?sid=724L4",
+      "route": "/games/2048-number-ball",
+      "intent": [
+        "play 2048 number ball",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "shockwaves",
+      "name": "Shockwaves",
+      "embedUrl": "https://play.gamepix.com/shockwaves/embed?sid=724L4",
+      "route": "/games/shockwaves",
+      "intent": [
+        "play shockwaves",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "drop-the-number-merge-game",
+      "name": "Drop the Number - Merge Game",
+      "embedUrl": "https://play.gamepix.com/drop-the-number-merge-game/embed?sid=724L4",
+      "route": "/games/drop-the-number-merge-game",
+      "intent": [
+        "play drop the number - merge game",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "fruity-pop",
+      "name": "Fruity Pop",
+      "embedUrl": "https://play.gamepix.com/fruity-pop/embed?sid=724L4",
+      "route": "/games/fruity-pop",
+      "intent": [
+        "play fruity pop",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "fit-cats",
+      "name": "Fit Cats",
+      "embedUrl": "https://play.gamepix.com/fit-cats/embed?sid=724L4",
+      "route": "/games/fit-cats",
+      "intent": [
+        "play fit cats",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-drag-and-drop",
+      "name": "2048 Drag and Drop",
+      "embedUrl": "https://play.gamepix.com/2048-drag-and-drop/embed?sid=724L4",
+      "route": "/games/2048-drag-and-drop",
+      "intent": [
+        "play 2048 drag and drop",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-cube",
+      "name": "2048 Cube Merge Block",
+      "embedUrl": "https://play.gamepix.com/2048-cube/embed?sid=724L4",
+      "route": "/games/2048-cube",
+      "intent": [
+        "play 2048 cube merge block",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-hex-chain-merge",
+      "name": "2048 Hex Chain Merge",
+      "embedUrl": "https://play.gamepix.com/2048-hex-chain-merge/embed?sid=724L4",
+      "route": "/games/2048-hex-chain-merge",
+      "intent": [
+        "play 2048 hex chain merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "chain-cube-2048-3d-merge-game",
+      "name": "Chain Cube 2048 3D Merge Game",
+      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-merge-game/embed?sid=724L4",
+      "route": "/games/chain-cube-2048-3d-merge-game",
+      "intent": [
+        "play chain cube 2048 3d merge game",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-planets-space",
+      "name": "Merge Planets Space!",
+      "embedUrl": "https://play.gamepix.com/merge-planets-space/embed?sid=724L4",
+      "route": "/games/merge-planets-space",
+      "intent": [
+        "play merge planets space!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "physical-balls-2048",
+      "name": "Physical Balls 2048",
+      "embedUrl": "https://play.gamepix.com/physical-balls-2048/embed?sid=724L4",
+      "route": "/games/physical-balls-2048",
+      "intent": [
+        "play physical balls 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-clicker",
+      "name": "2048 Clicker",
+      "embedUrl": "https://play.gamepix.com/2048-clicker/embed?sid=724L4",
+      "route": "/games/2048-clicker",
+      "intent": [
+        "play 2048 clicker",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-ballz",
+      "name": "2048 Ballz",
+      "embedUrl": "https://play.gamepix.com/2048-ballz/embed?sid=724L4",
+      "route": "/games/2048-ballz",
+      "intent": [
+        "play 2048 ballz",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-rings",
+      "name": "Merge Rings",
+      "embedUrl": "https://play.gamepix.com/merge-rings/embed?sid=724L4",
+      "route": "/games/merge-rings",
+      "intent": [
+        "play merge rings",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "flappy-2048",
+      "name": "Flappy 2048",
+      "embedUrl": "https://play.gamepix.com/flappy-2048/embed?sid=724L4",
+      "route": "/games/flappy-2048",
+      "intent": [
+        "play flappy 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-and-blast-2048",
+      "name": "Merge and Blast 2048",
+      "embedUrl": "https://play.gamepix.com/merge-and-blast-2048/embed?sid=724L4",
+      "route": "/games/merge-and-blast-2048",
+      "intent": [
+        "play merge and blast 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-merge",
+      "name": "2048 Merge",
+      "embedUrl": "https://play.gamepix.com/2048-merge/embed?sid=724L4",
+      "route": "/games/2048-merge",
+      "intent": [
+        "play 2048 merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-dice",
+      "name": "Merge Dice",
+      "embedUrl": "https://play.gamepix.com/merge-dice/embed?sid=724L4",
+      "route": "/games/merge-dice",
+      "intent": [
+        "play merge dice",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "watermelon-merge",
+      "name": "Watermelon Merge",
+      "embedUrl": "https://play.gamepix.com/watermelon-merge/embed?sid=724L4",
+      "route": "/games/watermelon-merge",
+      "intent": [
+        "play watermelon merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "hexa-merge",
+      "name": "Hexa Merge",
+      "embedUrl": "https://play.gamepix.com/hexa-merge/embed?sid=724L4",
+      "route": "/games/hexa-merge",
+      "intent": [
+        "play hexa merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-link-n-merge",
+      "name": "2048 - Link 'n Merge",
+      "embedUrl": "https://play.gamepix.com/2048-link-n-merge/embed?sid=724L4",
+      "route": "/games/2048-link-n-merge",
+      "intent": [
+        "play 2048 - link 'n merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-craft-2048-3d-puzzle",
+      "name": "Merge Craft 2048 3D Puzzle",
+      "embedUrl": "https://play.gamepix.com/merge-craft-2048-3d-puzzle/embed?sid=724L4",
+      "route": "/games/merge-craft-2048-3d-puzzle",
+      "intent": [
+        "play merge craft 2048 3d puzzle",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-match-balls",
+      "name": "2048 Match Balls",
+      "embedUrl": "https://play.gamepix.com/2048-match-balls/embed?sid=724L4",
+      "route": "/games/2048-match-balls",
+      "intent": [
+        "play 2048 match balls",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048colourballs",
+      "name": "2048ColourBalls",
+      "embedUrl": "https://play.gamepix.com/2048colourballs/embed?sid=724L4",
+      "route": "/games/2048colourballs",
+      "intent": [
+        "play 2048colourballs",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "mega-watermelon-merge",
+      "name": "Mega Watermelon Merge",
+      "embedUrl": "https://play.gamepix.com/mega-watermelon-merge/embed?sid=724L4",
+      "route": "/games/mega-watermelon-merge",
+      "intent": [
+        "play mega watermelon merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-balls-puzzle",
+      "name": "2048 Balls Puzzle",
+      "embedUrl": "https://play.gamepix.com/2048-balls-puzzle/embed?sid=724L4",
+      "route": "/games/2048-balls-puzzle",
+      "intent": [
+        "play 2048 balls puzzle",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-the-coins-ussr",
+      "name": "Merge the Coins USSR!",
+      "embedUrl": "https://play.gamepix.com/merge-the-coins-ussr/embed?sid=724L4",
+      "route": "/games/merge-the-coins-ussr",
+      "intent": [
+        "play merge the coins ussr!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-wood-block",
+      "name": "2048 Wood Block",
+      "embedUrl": "https://play.gamepix.com/2048-wood-block/embed?sid=724L4",
+      "route": "/games/2048-wood-block",
+      "intent": [
+        "play 2048 wood block",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-number-match",
+      "name": "2048 Number Match",
+      "embedUrl": "https://play.gamepix.com/2048-number-match/embed?sid=724L4",
+      "route": "/games/2048-number-match",
+      "intent": [
+        "play 2048 number match",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "collection-of-classic-puzzles-2048-10x10",
+      "name": "Collection Of Classic Puzzles - 2048 - 10x10",
+      "embedUrl": "https://play.gamepix.com/collection-of-classic-puzzles-2048-10x10/embed?sid=724L4",
+      "route": "/games/collection-of-classic-puzzles-2048-10x10",
+      "intent": [
+        "play collection of classic puzzles - 2048 - 10x10",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "stacktris-2048",
+      "name": "Stacktris 2048",
+      "embedUrl": "https://play.gamepix.com/stacktris-2048/embed?sid=724L4",
+      "route": "/games/stacktris-2048",
+      "intent": [
+        "play stacktris 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "double-the-numbers",
+      "name": "Double the Numbers",
+      "embedUrl": "https://play.gamepix.com/double-the-numbers/embed?sid=724L4",
+      "route": "/games/double-the-numbers",
+      "intent": [
+        "play double the numbers",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "clay-2048",
+      "name": "Clay 2048",
+      "embedUrl": "https://play.gamepix.com/clay-2048/embed?sid=724L4",
+      "route": "/games/clay-2048",
+      "intent": [
+        "play clay 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-2048",
+      "name": "20482048",
+      "embedUrl": "https://play.gamepix.com/2048-2048/embed?sid=724L4",
+      "route": "/games/2048-2048",
+      "intent": [
+        "play 20482048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-foodies",
+      "name": "2048 Foodies",
+      "embedUrl": "https://play.gamepix.com/2048-foodies/embed?sid=724L4",
+      "route": "/games/2048-foodies",
+      "intent": [
+        "play 2048 foodies",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-blocks-destruction",
+      "name": "2048 - Blocks Destruction",
+      "embedUrl": "https://play.gamepix.com/2048-blocks-destruction/embed?sid=724L4",
+      "route": "/games/2048-blocks-destruction",
+      "intent": [
+        "play 2048 - blocks destruction",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "fruit-party",
+      "name": "Fruit Party",
+      "embedUrl": "https://play.gamepix.com/fruit-party/embed?sid=724L4",
+      "route": "/games/fruit-party",
+      "intent": [
+        "play fruit party",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-small-fruits",
+      "name": "Merge Small Fruits",
+      "embedUrl": "https://play.gamepix.com/merge-small-fruits/embed?sid=724L4",
+      "route": "/games/merge-small-fruits",
+      "intent": [
+        "play merge small fruits",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merging-easter-eggs",
+      "name": "Merging Easter Eggs",
+      "embedUrl": "https://play.gamepix.com/merging-easter-eggs/embed?sid=724L4",
+      "route": "/games/merging-easter-eggs",
+      "intent": [
+        "play merging easter eggs",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "double-up",
+      "name": "Double Up",
+      "embedUrl": "https://play.gamepix.com/double-up/embed?sid=724L4",
+      "route": "/games/double-up",
+      "intent": [
+        "play double up",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-level-12",
+      "name": "2048 Level 12",
+      "embedUrl": "https://play.gamepix.com/2048-level-12/embed?sid=724L4",
+      "route": "/games/2048-level-12",
+      "intent": [
+        "play 2048 level 12",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "tung-tung-sahur-play-with-number",
+      "name": "Tung Tung Sahur Play With Number",
+      "embedUrl": "https://play.gamepix.com/tung-tung-sahur-play-with-number/embed?sid=724L4",
+      "route": "/games/tung-tung-sahur-play-with-number",
+      "intent": [
+        "play tung tung sahur play with number",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "animal-stacker",
+      "name": "Animal Stackers",
+      "embedUrl": "https://play.gamepix.com/animal-stacker/embed?sid=724L4",
+      "route": "/games/animal-stacker",
+      "intent": [
+        "play animal stackers",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "halloween-merge-mania",
+      "name": "Halloween Merge Mania",
+      "embedUrl": "https://play.gamepix.com/halloween-merge-mania/embed?sid=724L4",
+      "route": "/games/halloween-merge-mania",
+      "intent": [
+        "play halloween merge mania",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "fruzzle",
+      "name": "Fruzzle",
+      "embedUrl": "https://play.gamepix.com/fruzzle/embed?sid=724L4",
+      "route": "/games/fruzzle",
+      "intent": [
+        "play fruzzle",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "dimensional-rift-2048",
+      "name": "Dimensional Rift 2048",
+      "embedUrl": "https://play.gamepix.com/dimensional-rift-2048/embed?sid=724L4",
+      "route": "/games/dimensional-rift-2048",
+      "intent": [
+        "play dimensional rift 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "pizza-mker-2048",
+      "name": "Pizza Maker 2048",
+      "embedUrl": "https://play.gamepix.com/pizza-mker-2048/embed?sid=724L4",
+      "route": "/games/pizza-mker-2048",
+      "intent": [
+        "play pizza maker 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-animals",
+      "name": "2048 Animals",
+      "embedUrl": "https://play.gamepix.com/2048-animals/embed?sid=724L4",
+      "route": "/games/2048-animals",
+      "intent": [
+        "play 2048 animals",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "dice-puzzle-fruits",
+      "name": "Dice Puzzle Fruits",
+      "embedUrl": "https://play.gamepix.com/dice-puzzle-fruits/embed?sid=724L4",
+      "route": "/games/dice-puzzle-fruits",
+      "intent": [
+        "play dice puzzle fruits",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "sugarrushpaths",
+      "name": "SugarRushPaths",
+      "embedUrl": "https://play.gamepix.com/sugarrushpaths/embed?sid=724L4",
+      "route": "/games/sugarrushpaths",
+      "intent": [
+        "play sugarrushpaths",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "watermelon-merge-game",
+      "name": "Watermelon merge",
+      "embedUrl": "https://play.gamepix.com/watermelon-merge-game/embed?sid=724L4",
+      "route": "/games/watermelon-merge-game",
+      "intent": [
+        "play watermelon merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "cubatoria-merge-2048",
+      "name": "Cubatoria Merge 2048",
+      "embedUrl": "https://play.gamepix.com/cubatoria-merge-2048/embed?sid=724L4",
+      "route": "/games/cubatoria-merge-2048",
+      "intent": [
+        "play cubatoria merge 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-champion",
+      "name": "2048 Champion",
+      "embedUrl": "https://play.gamepix.com/2048-champion/embed?sid=724L4",
+      "route": "/games/2048-champion",
+      "intent": [
+        "play 2048 champion",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "blend-fruits",
+      "name": "Blend Fruits",
+      "embedUrl": "https://play.gamepix.com/blend-fruits/embed?sid=724L4",
+      "route": "/games/blend-fruits",
+      "intent": [
+        "play blend fruits",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "magic-2048",
+      "name": "Magic 2048",
+      "embedUrl": "https://play.gamepix.com/magic-2048/embed?sid=724L4",
+      "route": "/games/magic-2048",
+      "intent": [
+        "play magic 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "m2-block-2048",
+      "name": "M2 Blocks 2048",
+      "embedUrl": "https://play.gamepix.com/m2-block-2048/embed?sid=724L4",
+      "route": "/games/m2-block-2048",
+      "intent": [
+        "play m2 blocks 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "atomic-merge-2048",
+      "name": "Atomic Merge 2048",
+      "embedUrl": "https://play.gamepix.com/atomic-merge-2048/embed?sid=724L4",
+      "route": "/games/atomic-merge-2048",
+      "intent": [
+        "play atomic merge 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "kitchen-room-math",
+      "name": "Kitchen Room Math",
+      "embedUrl": "https://play.gamepix.com/kitchen-room-math/embed?sid=724L4",
+      "route": "/games/kitchen-room-math",
+      "intent": [
+        "play kitchen room math",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-plus",
+      "name": "2048 Dogs",
+      "embedUrl": "https://play.gamepix.com/2048-plus/embed?sid=724L4",
+      "route": "/games/2048-plus",
+      "intent": [
+        "play 2048 dogs",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "block-2048",
+      "name": "Block 2048",
+      "embedUrl": "https://play.gamepix.com/block-2048/embed?sid=724L4",
+      "route": "/games/block-2048",
+      "intent": [
+        "play block 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "dice-puzzles-flowers",
+      "name": "Dice Puzzles Flowers!",
+      "embedUrl": "https://play.gamepix.com/dice-puzzles-flowers/embed?sid=724L4",
+      "route": "/games/dice-puzzles-flowers",
+      "intent": [
+        "play dice puzzles flowers!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-the-balls-2048-billiards",
+      "name": "Merge the Balls 2048 Billiards!",
+      "embedUrl": "https://play.gamepix.com/merge-the-balls-2048-billiards/embed?sid=724L4",
+      "route": "/games/merge-the-balls-2048-billiards",
+      "intent": [
+        "play merge the balls 2048 billiards!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-fish-in-2048",
+      "name": "Merge Fish in 2048!",
+      "embedUrl": "https://play.gamepix.com/merge-fish-in-2048/embed?sid=724L4",
+      "route": "/games/merge-fish-in-2048",
+      "intent": [
+        "play merge fish in 2048!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-squares",
+      "name": "Merge Squares",
+      "embedUrl": "https://play.gamepix.com/merge-squares/embed?sid=724L4",
+      "route": "/games/merge-squares",
+      "intent": [
+        "play merge squares",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "drop-n-merge",
+      "name": "Drop N Merge",
+      "embedUrl": "https://play.gamepix.com/drop-n-merge/embed?sid=724L4",
+      "route": "/games/drop-n-merge",
+      "intent": [
+        "play drop n merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-legend",
+      "name": "2048 Legend",
+      "embedUrl": "https://play.gamepix.com/2048-legend/embed?sid=724L4",
+      "route": "/games/2048-legend",
+      "intent": [
+        "play 2048 legend",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-magic-hex",
+      "name": "2048 Magic Hex",
+      "embedUrl": "https://play.gamepix.com/2048-magic-hex/embed?sid=724L4",
+      "route": "/games/2048-magic-hex",
+      "intent": [
+        "play 2048 magic hex",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "number-bubble-shooter",
+      "name": "Number Bubble Shooter",
+      "embedUrl": "https://play.gamepix.com/number-bubble-shooter/embed?sid=724L4",
+      "route": "/games/number-bubble-shooter",
+      "intent": [
+        "play number bubble shooter",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "hex-2048",
+      "name": "Hex-2048",
+      "embedUrl": "https://play.gamepix.com/hex-2048/embed?sid=724L4",
+      "route": "/games/hex-2048",
+      "intent": [
+        "play hex-2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "blocks-merge-puzzle-2048",
+      "name": "Blocks Merge Puzzle 2048",
+      "embedUrl": "https://play.gamepix.com/blocks-merge-puzzle-2048/embed?sid=724L4",
+      "route": "/games/blocks-merge-puzzle-2048",
+      "intent": [
+        "play blocks merge puzzle 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "number-nexus",
+      "name": "Number Nexus",
+      "embedUrl": "https://play.gamepix.com/number-nexus/embed?sid=724L4",
+      "route": "/games/number-nexus",
+      "intent": [
+        "play number nexus",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "farm-2048",
+      "name": "Farm 2048",
+      "embedUrl": "https://play.gamepix.com/farm-2048/embed?sid=724L4",
+      "route": "/games/farm-2048",
+      "intent": [
+        "play farm 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-sea-vehicles",
+      "name": "2048 Sea Vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-sea-vehicles/embed?sid=724L4",
+      "route": "/games/2048-sea-vehicles",
+      "intent": [
+        "play 2048 sea vehicles",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-air-vehicles",
+      "name": "2048 Air Vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-air-vehicles/embed?sid=724L4",
+      "route": "/games/2048-air-vehicles",
+      "intent": [
+        "play 2048 air vehicles",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-land-vehicles",
+      "name": "2048 Land Vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-land-vehicles/embed?sid=724L4",
+      "route": "/games/2048-land-vehicles",
+      "intent": [
+        "play 2048 land vehicles",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "animal-match-2",
+      "name": "Animal Match 2",
+      "embedUrl": "https://play.gamepix.com/animal-match-2/embed?sid=724L4",
+      "route": "/games/animal-match-2",
+      "intent": [
+        "play animal match 2",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-puzzle-challenge-number-merge-mania",
+      "name": "2048 Puzzle Challenge - Number Merge Mania!",
+      "embedUrl": "https://play.gamepix.com/2048-puzzle-challenge-number-merge-mania/embed?sid=724L4",
+      "route": "/games/2048-puzzle-challenge-number-merge-mania",
+      "intent": [
+        "play 2048 puzzle challenge - number merge mania!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-animals",
+      "name": "Merge Animals",
+      "embedUrl": "https://play.gamepix.com/merge-animals/embed?sid=724L4",
+      "route": "/games/merge-animals",
+      "intent": [
+        "play merge animals",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-mushrooms-2048",
+      "name": "Merge Mushrooms 2048!",
+      "embedUrl": "https://play.gamepix.com/merge-mushrooms-2048/embed?sid=724L4",
+      "route": "/games/merge-mushrooms-2048",
+      "intent": [
+        "play merge mushrooms 2048!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "zoozoo-drop",
+      "name": "ZooZoo Merge",
+      "embedUrl": "https://play.gamepix.com/zoozoo-drop/embed?sid=724L4",
+      "route": "/games/zoozoo-drop",
+      "intent": [
+        "play zoozoo merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "stick-number",
+      "name": "Stick Number",
+      "embedUrl": "https://play.gamepix.com/stick-number/embed?sid=724L4",
+      "route": "/games/stick-number",
+      "intent": [
+        "play stick number",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "game2048",
+      "name": "Game2048",
+      "embedUrl": "https://play.gamepix.com/game2048/embed?sid=724L4",
+      "route": "/games/game2048",
+      "intent": [
+        "play game2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "classic-2048-cubes",
+      "name": "Classic 2048 - Cubes",
+      "embedUrl": "https://play.gamepix.com/classic-2048-cubes/embed?sid=724L4",
+      "route": "/games/classic-2048-cubes",
+      "intent": [
+        "play classic 2048 - cubes",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "alien-merge-2048",
+      "name": "Alien Merge 2048",
+      "embedUrl": "https://play.gamepix.com/alien-merge-2048/embed?sid=724L4",
+      "route": "/games/alien-merge-2048",
+      "intent": [
+        "play alien merge 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-challenge",
+      "name": "Merge Challenge",
+      "embedUrl": "https://play.gamepix.com/merge-challenge/embed?sid=724L4",
+      "route": "/games/merge-challenge",
+      "intent": [
+        "play merge challenge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-x2-legend",
+      "name": "2048 X2 Legend",
+      "embedUrl": "https://play.gamepix.com/2048-x2-legend/embed?sid=724L4",
+      "route": "/games/2048-x2-legend",
+      "intent": [
+        "play 2048 x2 legend",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "caterfall-2048",
+      "name": "Caterfall 2048",
+      "embedUrl": "https://play.gamepix.com/caterfall-2048/embed?sid=724L4",
+      "route": "/games/caterfall-2048",
+      "intent": [
+        "play caterfall 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "emoji-2048",
+      "name": "Emoji 2048",
+      "embedUrl": "https://play.gamepix.com/emoji-2048/embed?sid=724L4",
+      "route": "/games/emoji-2048",
+      "intent": [
+        "play emoji 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "rebel-2048",
+      "name": "Rebel 2048",
+      "embedUrl": "https://play.gamepix.com/rebel-2048/embed?sid=724L4",
+      "route": "/games/rebel-2048",
+      "intent": [
+        "play rebel 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "triangles-dots-2048",
+      "name": "Triangles Dots 2048",
+      "embedUrl": "https://play.gamepix.com/triangles-dots-2048/embed?sid=724L4",
+      "route": "/games/triangles-dots-2048",
+      "intent": [
+        "play triangles dots 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "wings-2048",
+      "name": "Wings 2048",
+      "embedUrl": "https://play.gamepix.com/wings-2048/embed?sid=724L4",
+      "route": "/games/wings-2048",
+      "intent": [
+        "play wings 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-number-merge",
+      "name": "2048 Number Merge",
+      "embedUrl": "https://play.gamepix.com/2048-number-merge/embed?sid=724L4",
+      "route": "/games/2048-number-merge",
+      "intent": [
+        "play 2048 number merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "number-merge-addictive",
+      "name": "Number Merge - Addictive",
+      "embedUrl": "https://play.gamepix.com/number-merge-addictive/embed?sid=724L4",
+      "route": "/games/number-merge-addictive",
+      "intent": [
+        "play number merge - addictive",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "bubble-shoot-merge-box-2048",
+      "name": "Bubble Shoot Merge Box 2048",
+      "embedUrl": "https://play.gamepix.com/bubble-shoot-merge-box-2048/embed?sid=724L4",
+      "route": "/games/bubble-shoot-merge-box-2048",
+      "intent": [
+        "play bubble shoot merge box 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-merge-number-blocks",
+      "name": "2048 Merge Number Blocks",
+      "embedUrl": "https://play.gamepix.com/2048-merge-number-blocks/embed?sid=724L4",
+      "route": "/games/2048-merge-number-blocks",
+      "intent": [
+        "play 2048 merge number blocks",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "block-mania-2048",
+      "name": "Block Mania 2048",
+      "embedUrl": "https://play.gamepix.com/block-mania-2048/embed?sid=724L4",
+      "route": "/games/block-mania-2048",
+      "intent": [
+        "play block mania 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-fruits-3d",
+      "name": "Merge Fruits 3D!",
+      "embedUrl": "https://play.gamepix.com/merge-fruits-3d/embed?sid=724L4",
+      "route": "/games/merge-fruits-3d",
+      "intent": [
+        "play merge fruits 3d!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-flowers-in-bubbles-2048",
+      "name": "Merge Flowers in Bubbles 2048!",
+      "embedUrl": "https://play.gamepix.com/merge-flowers-in-bubbles-2048/embed?sid=724L4",
+      "route": "/games/merge-flowers-in-bubbles-2048",
+      "intent": [
+        "play merge flowers in bubbles 2048!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-diamonds-treasure",
+      "name": "Merge Diamonds Treasure!",
+      "embedUrl": "https://play.gamepix.com/merge-diamonds-treasure/embed?sid=724L4",
+      "route": "/games/merge-diamonds-treasure",
+      "intent": [
+        "play merge diamonds treasure!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "merge-fruits-fold-the-watermelon-original",
+      "name": "Merge Fruits Fold the Watermelon Original!",
+      "embedUrl": "https://play.gamepix.com/merge-fruits-fold-the-watermelon-original/embed?sid=724L4",
+      "route": "/games/merge-fruits-fold-the-watermelon-original",
+      "intent": [
+        "play merge fruits fold the watermelon original!",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "jingle-juggle-merge",
+      "name": "Jingle Juggle Merge",
+      "embedUrl": "https://play.gamepix.com/jingle-juggle-merge/embed?sid=724L4",
+      "route": "/games/jingle-juggle-merge",
+      "intent": [
+        "play jingle juggle merge",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "cute-cats-2048",
+      "name": "Cute Cats 2048",
+      "embedUrl": "https://play.gamepix.com/cute-cats-2048/embed?sid=724L4",
+      "route": "/games/cute-cats-2048",
+      "intent": [
+        "play cute cats 2048",
+        "2048 online"
+      ],
+      "difficulty": "long-tail"
+    },
+    {
+      "slug": "2048-bears",
+      "name": "2048 Bears",
+      "embedUrl": "https://play.gamepix.com/2048-bears/embed?sid=724L4",
+      "route": "/games/2048-bears",
+      "intent": [
+        "play 2048 bears",
+        "2048 online"
+      ],
       "difficulty": "long-tail"
     }
   ]

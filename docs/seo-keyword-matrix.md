@@ -4,9 +4,8 @@
 |---|---|---|---|---|---|
 | Core | 2048 unblocked | play now | High | `/` | broad but still actionable via quality cluster |
 | Core | play 2048 online free | play now | High | `/` | include in intro copy |
-| Variant | 2048 cupcakes unblocked | variant play | High | `/cupcakes` | lower competition, high specificity |
-| Variant | 2048 3d unblocked | variant play | High | `/3d` | visual-difference intent |
-| Variant | multiplayer 2048 | competitive play | Medium | `/multiplayer` | rising intent, feature-led copy |
+| Variant | 2048 merge variants | variant play | High | `/` | keep target flexible across generated pages |
+| Variant | 2048 puzzle games | variant play | Medium | `/` | broader coverage for the collection hub |
 | Support | 2048 strategy tips | learn/how-to | Medium | `/` | supports snippet potential |
 | Support | how to get higher score in 2048 | learn/how-to | Medium | `/` | add FAQ and concise answers |
 | Support | browser puzzle games like 2048 | discovery | Low | `/` | use related-links section |

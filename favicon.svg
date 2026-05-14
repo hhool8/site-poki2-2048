@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="5" fill="#0f172a"/>
+  <text x="16" y="13.8" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="9" letter-spacing="-0.4" fill="#f97316">2048</text>
+  <text x="16" y="24.2" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="6.8" letter-spacing="0.2" fill="#fb923c">GAMES</text>
+</svg>

@@ -3,7 +3,7 @@
 ## Pre-deploy
 
 - Confirm project root points to `site_poki2_2048`.
-- Ensure pages exist: `index.html`, `cupcakes.html`, `3d.html`, `multiplayer.html`.
+- Ensure the homepage exists at `index.html`.
 - Confirm `robots.txt` and `sitemap.xml` include production domain.
 - Validate all canonical URLs are absolute and correct.
 
@@ -21,7 +21,7 @@
 
 ## Post-deploy Verification
 
-- Open all four pages on desktop and mobile.
+- Open the homepage and any generated game pages on desktop and mobile.
 - Check no horizontal overflow.
 - Confirm internal links and canonical URLs.
 - Confirm `sitemap.xml` serves 200 and contains expected URLs.

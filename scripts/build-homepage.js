@@ -88,20 +88,20 @@ const recentGames = [...games]
 const hero = hotGames[0];
 
 const hotTiles = hotGames.map((g) => {
-  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=180`;
-  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=180`;
-  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="180" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></span></a>`;
+  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
+  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Hot score ${g.score}</small></span></a>`;
 }).join('\n');
 
 const recentTiles = recentGames.map((g) => {
   const stamp = g.updatedAt ? new Date(g.updatedAt).toISOString().slice(0, 10) : 'N/A';
-  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=180`;
-  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=180`;
-  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="180" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></span></a>`;
+  const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
+  const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+  return `        <a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}<br /><small class="kbd">Updated ${stamp}</small></span></a>`;
 }).join('\n');
 
 const featuredSection = [
-  '    <section class="card">',
+  '    <section class="card" id="hot-games">',
   '      <h2>Hot 2048 Games (Weighted)</h2>',
   '      <div class="grid">',
   hotTiles,
@@ -110,7 +110,7 @@ const featuredSection = [
 ].join('\n');
 
 const recentSection = [
-  '    <section class="card">',
+  '    <section class="card" id="recent-games">',
   '      <h2>Recently Updated 2048 Games</h2>',
   '      <div class="grid">',
   recentTiles,
@@ -146,7 +146,7 @@ html = html.replace(
   homeEmbed
 );
 
-const oldFeaturedRegex = /\s*<section class="card">\s*<h2>(Featured 2048 Variants to Play Online|Hot 2048 Games \(Weighted\))<\/h2>[\s\S]*?<\/section>/;
+const oldFeaturedRegex = /\s*<section class="card"[^>]*>\s*<h2>(Featured 2048 Variants to Play Online|Hot 2048 Games \(Weighted\))<\/h2>[\s\S]*?<\/section>/;
 if (!oldFeaturedRegex.test(html)) {
   console.error('Unable to locate featured/hot section in index.html');
   process.exit(1);
@@ -154,7 +154,7 @@ if (!oldFeaturedRegex.test(html)) {
 
 html = html.replace(oldFeaturedRegex, `\n${featuredSection}`);
 
-const oldRecentRegex = /\s*<section class="card">\s*<h2>Recently Updated 2048 Games<\/h2>[\s\S]*?<\/section>/;
+const oldRecentRegex = /\s*<section class="card"[^>]*>\s*<h2>Recently Updated 2048 Games<\/h2>[\s\S]*?<\/section>/;
 if (oldRecentRegex.test(html)) {
   html = html.replace(oldRecentRegex, `\n${recentSection}`);
 } else {

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PAGES=("index.html" "cupcakes.html" "3d.html" "multiplayer.html")
+PAGES=("index.html")
 
 if command -v rg >/dev/null 2>&1; then
   SEARCH_CMD="rg -q"

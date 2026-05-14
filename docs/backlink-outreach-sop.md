@@ -14,7 +14,7 @@ Acquire relevant, low-risk links that support long-tail rankings for 2048 varian
 
 - Brand + topic: `Poki2 2048 collection`
 - Neutral: `play here`
-- Partial match: `2048 cupcakes page`
+- Partial match: `2048 game page`
 - Avoid repeating exact-match anchor excessively.
 
 ## Outreach Template

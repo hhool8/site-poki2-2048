@@ -45,15 +45,47 @@ const games = candidates
   }))
   .filter((g) => g.title && g.slug && g.url);
 
+const gameHref = (slug) => (slug === '2048' ? '/' : `/games/${slug}`);
+
 const makeRelated = (list, currentSlug) => list
   .filter((g) => g.slug !== currentSlug)
   .slice(0, 8)
   .map((g) => {
-    const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=180`;
-    const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=180`;
-    return `<a class="tile" href="/games/${g.slug}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="180" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}</span></a>`;
+    const cover = `https://img.gamepix.com/games/${g.slug}/cover/${g.slug}.png?w=320&h=240`;
+    const icon = `https://img.gamepix.com/games/${g.slug}/icon/${g.slug}.png?w=320&h=240`;
+    return `<a class="tile" href="${esc(gameHref(g.slug))}"><img class="tile-thumb" src="${esc(cover)}" onerror="this.onerror=null;this.src='${esc(icon)}'" width="320" height="240" loading="lazy" alt="${esc(g.title)} thumbnail" /><span class="tile-body">${esc(g.title)}</span></a>`;
   })
   .join('\n        ');
+
+const NAV_HTML = `  <nav class="site-nav" aria-label="Main navigation">
+    <a class="logo" href="/"><img class="logo-mark" src="/favicon.svg" alt="2048 Games by Poki2" width="26" height="26" />2048 Games by Poki2</a>
+    <div class="nav-cats" id="nav-cats" role="navigation" aria-label="Game navigation">
+      <a href="/">Home</a>
+      <a href="/#hot-games">Hot 2048</a>
+      <a href="/#recent-games">Recent Updates</a>
+      <a href="https://poki2.online" target="_blank" rel="noopener">Poki2.online</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>`;
+
+const FOOTER_HTML = `  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="/"><img class="logo-mark" src="/favicon.svg" alt="2048 Games by Poki2" width="30" height="30" />2048 Games by Poki2</a>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/#hot-games">Hot 2048</a>
+          <a href="/#recent-games">Recent Updates</a>
+          <a href="https://poki2.online" target="_blank" rel="noopener">Poki2.online</a>
+        </nav>
+        <p class="footer-copy">&#169; 2026 2048 Games by Poki2. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>`;
 
 const makePage = (game) => {
   const title = `${game.title} Unblocked - Play ${game.title} Online`;
@@ -74,6 +106,9 @@ const makePage = (game) => {
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${esc(canonical)}" />
   <meta property="og:image" content="https://img.gamepix.com/games/${esc(game.slug)}/icon/${esc(game.slug)}.png?w=640" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#0f172a" />
   <link rel="stylesheet" href="/assets/css/site.css?v=20260514" />
   <script type="application/ld+json">
   {
@@ -88,6 +123,8 @@ const makePage = (game) => {
   </script>
 </head>
 <body>
+${NAV_HTML}
+
   <main class="container">
     <section class="hero card">
       <h1>${esc(game.title)} Unblocked</h1>
@@ -127,6 +164,8 @@ const makePage = (game) => {
       <p><a href="/">Back to 2048 Collection</a></p>
     </section>
   </main>
+
+${FOOTER_HTML}
 
   <script src="/assets/js/site.js" defer></script>
 </body>

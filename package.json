@@ -12,6 +12,7 @@
     "routes:build": "node ./scripts/build-route-candidates.js",
     "pages:build:featured": "node ./scripts/build-featured-pages.js",
     "homepage:build": "node ./scripts/build-homepage.js",
-    "pages:build:all": "node ./scripts/build-route-pages.js && node ./scripts/build-homepage.js"
+    "pages:build:all": "node ./scripts/build-route-pages.js && node ./scripts/build-homepage.js",
+    "preview": "node ./scripts/preview-site.js"
   }
 }

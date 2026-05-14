@@ -1,719 +1,860 @@
 {
-  "generatedAt": "2026-05-13T17:50:47.748Z",
-  "count": 102,
+  "generatedAt": "2026-05-14T13:47:31.166Z",
+  "count": 122,
+  "source": "data/games.json#launchGames",
   "candidates": [
     {
-      "title": "20482048",
-      "route": "/20482048",
-      "sourceSlug": "2048-2048",
-      "embedUrl": "https://play.gamepix.com/2048-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Air Vehicles",
-      "route": "/2048-air-vehicles",
-      "sourceSlug": "2048-air-vehicles",
-      "embedUrl": "https://play.gamepix.com/2048-air-vehicles/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Animals",
-      "route": "/2048-animals",
-      "sourceSlug": "2048-animals",
-      "embedUrl": "https://play.gamepix.com/2048-animals/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Balls Puzzle",
-      "route": "/2048-balls-puzzle",
-      "sourceSlug": "2048-balls-puzzle",
-      "embedUrl": "https://play.gamepix.com/2048-balls-puzzle/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Ballz",
-      "route": "/2048-ballz",
-      "sourceSlug": "2048-ballz",
-      "embedUrl": "https://play.gamepix.com/2048-ballz/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Bears",
-      "route": "/2048-bears",
-      "sourceSlug": "2048-bears",
-      "embedUrl": "https://play.gamepix.com/2048-bears/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 - Blocks Destruction",
-      "route": "/2048-blocks-destruction",
-      "sourceSlug": "2048-blocks-destruction",
-      "embedUrl": "https://play.gamepix.com/2048-blocks-destruction/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Champion",
-      "route": "/2048-champion",
-      "sourceSlug": "2048-champion",
-      "embedUrl": "https://play.gamepix.com/2048-champion/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Classic Puzzle - Challenge",
-      "route": "/2048-classic-puzzle-challenge",
-      "sourceSlug": "2048-classic-puzzle-challenge",
-      "embedUrl": "https://play.gamepix.com/2048-classic-puzzle-challenge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Clicker",
-      "route": "/2048-clicker",
-      "sourceSlug": "2048-clicker",
-      "embedUrl": "https://play.gamepix.com/2048-clicker/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Cube Run",
-      "route": "/2048-cube-run",
-      "sourceSlug": "2048-cube-run",
-      "embedUrl": "https://play.gamepix.com/2048-cube-run/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Foodies",
-      "route": "/2048-foodies",
-      "sourceSlug": "2048-foodies",
-      "embedUrl": "https://play.gamepix.com/2048-foodies/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Hex Chain Merge",
-      "route": "/2048-hex-chain-merge",
-      "sourceSlug": "2048-hex-chain-merge",
-      "embedUrl": "https://play.gamepix.com/2048-hex-chain-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Land Vehicles",
-      "route": "/2048-land-vehicles",
-      "sourceSlug": "2048-land-vehicles",
-      "embedUrl": "https://play.gamepix.com/2048-land-vehicles/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Level 12",
-      "route": "/2048-level-12",
-      "sourceSlug": "2048-level-12",
-      "embedUrl": "https://play.gamepix.com/2048-level-12/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Match Balls",
-      "route": "/2048-match-balls",
-      "sourceSlug": "2048-match-balls",
-      "embedUrl": "https://play.gamepix.com/2048-match-balls/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Merge",
-      "route": "/2048-merge",
-      "sourceSlug": "2048-merge",
-      "embedUrl": "https://play.gamepix.com/2048-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Number Ball",
-      "route": "/2048-number-ball",
-      "sourceSlug": "2048-number-ball",
-      "embedUrl": "https://play.gamepix.com/2048-number-ball/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Number Match",
-      "route": "/2048-number-match",
-      "sourceSlug": "2048-number-match",
-      "embedUrl": "https://play.gamepix.com/2048-number-match/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Number Merge",
-      "route": "/2048-number-merge",
-      "sourceSlug": "2048-number-merge",
-      "embedUrl": "https://play.gamepix.com/2048-number-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Dogs",
-      "route": "/2048-dogs",
-      "sourceSlug": "2048-plus",
-      "embedUrl": "https://play.gamepix.com/2048-plus/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Puzzle Challenge - Number Merge Mania!",
-      "route": "/2048-puzzle-challenge-number-merge-mania",
-      "sourceSlug": "2048-puzzle-challenge-number-merge-mania",
-      "embedUrl": "https://play.gamepix.com/2048-puzzle-challenge-number-merge-mania/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Sea Vehicles",
-      "route": "/2048-sea-vehicles",
-      "sourceSlug": "2048-sea-vehicles",
-      "embedUrl": "https://play.gamepix.com/2048-sea-vehicles/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 Wood Block",
-      "route": "/2048-wood-block",
-      "sourceSlug": "2048-wood-block",
-      "embedUrl": "https://play.gamepix.com/2048-wood-block/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 X2 Legend",
-      "route": "/2048-x2-legend",
-      "sourceSlug": "2048-x2-legend",
-      "embedUrl": "https://play.gamepix.com/2048-x2-legend/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048 X2 Merge Blocks",
-      "route": "/2048-x2-merge-blocks",
-      "sourceSlug": "2048-x2-merge-blocks",
-      "embedUrl": "https://play.gamepix.com/2048-x2-merge-blocks/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "2048ColourBalls",
-      "route": "/2048colourballs",
-      "sourceSlug": "2048colourballs",
-      "embedUrl": "https://play.gamepix.com/2048colourballs/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Alien Merge 2048",
-      "route": "/alien-merge-2048",
-      "sourceSlug": "alien-merge-2048",
-      "embedUrl": "https://play.gamepix.com/alien-merge-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Animal Match 2",
-      "route": "/animal-match-2",
-      "sourceSlug": "animal-match-2",
-      "embedUrl": "https://play.gamepix.com/animal-match-2/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Animal Stackers",
-      "route": "/animal-stackers",
-      "sourceSlug": "animal-stacker",
-      "embedUrl": "https://play.gamepix.com/animal-stacker/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Atomic Merge 2048",
-      "route": "/atomic-merge-2048",
-      "sourceSlug": "atomic-merge-2048",
-      "embedUrl": "https://play.gamepix.com/atomic-merge-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Blend Fruits",
-      "route": "/blend-fruits",
-      "sourceSlug": "blend-fruits",
-      "embedUrl": "https://play.gamepix.com/blend-fruits/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Block 2048",
-      "route": "/block-2048",
-      "sourceSlug": "block-2048",
-      "embedUrl": "https://play.gamepix.com/block-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Block Mania 2048",
-      "route": "/block-mania-2048",
-      "sourceSlug": "block-mania-2048",
-      "embedUrl": "https://play.gamepix.com/block-mania-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Bubble Shoot Merge Box 2048",
-      "route": "/bubble-shoot-merge-box-2048",
-      "sourceSlug": "bubble-shoot-merge-box-2048",
-      "embedUrl": "https://play.gamepix.com/bubble-shoot-merge-box-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Chain Cube 2048 3D",
-      "route": "/chain-cube-2048-3d",
-      "sourceSlug": "chain-cube-2048-3d-1",
-      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-1/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Chain Cube 2048 3D Merge Game",
-      "route": "/chain-cube-2048-3d-merge-game",
-      "sourceSlug": "chain-cube-2048-3d-merge-game",
-      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-merge-game/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Classic 2048 - Cubes",
-      "route": "/classic-2048-cubes",
-      "sourceSlug": "classic-2048-cubes",
-      "embedUrl": "https://play.gamepix.com/classic-2048-cubes/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Clay 2048",
-      "route": "/clay-2048",
-      "sourceSlug": "clay-2048",
-      "embedUrl": "https://play.gamepix.com/clay-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Cubatoria Merge 2048",
-      "route": "/cubatoria-merge-2048",
-      "sourceSlug": "cubatoria-merge-2048",
-      "embedUrl": "https://play.gamepix.com/cubatoria-merge-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Cute Cats 2048",
-      "route": "/cute-cats-2048",
-      "sourceSlug": "cute-cats-2048",
-      "embedUrl": "https://play.gamepix.com/cute-cats-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Dice Puzzle Fruits",
-      "route": "/dice-puzzle-fruits",
-      "sourceSlug": "dice-puzzle-fruits",
-      "embedUrl": "https://play.gamepix.com/dice-puzzle-fruits/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Dice Puzzles Flowers!",
-      "route": "/dice-puzzles-flowers",
-      "sourceSlug": "dice-puzzles-flowers",
-      "embedUrl": "https://play.gamepix.com/dice-puzzles-flowers/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Dimensional Rift 2048",
-      "route": "/dimensional-rift-2048",
-      "sourceSlug": "dimensional-rift-2048",
-      "embedUrl": "https://play.gamepix.com/dimensional-rift-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Double the Numbers",
-      "route": "/double-the-numbers",
-      "sourceSlug": "double-the-numbers",
-      "embedUrl": "https://play.gamepix.com/double-the-numbers/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Double Up",
-      "route": "/double-up",
-      "sourceSlug": "double-up",
-      "embedUrl": "https://play.gamepix.com/double-up/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Drop N Merge",
-      "route": "/drop-n-merge",
-      "sourceSlug": "drop-n-merge",
-      "embedUrl": "https://play.gamepix.com/drop-n-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Drop the Number - Merge Game",
-      "route": "/drop-the-number-merge-game",
-      "sourceSlug": "drop-the-number-merge-game",
-      "embedUrl": "https://play.gamepix.com/drop-the-number-merge-game/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Emoji 2048",
-      "route": "/emoji-2048",
-      "sourceSlug": "emoji-2048",
-      "embedUrl": "https://play.gamepix.com/emoji-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Emoji Blush",
-      "route": "/emoji-blush",
-      "sourceSlug": "emoji-blush",
-      "embedUrl": "https://play.gamepix.com/emoji-blush/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Falling Fruits",
-      "route": "/falling-fruits",
-      "sourceSlug": "falling-fruits",
-      "embedUrl": "https://play.gamepix.com/falling-fruits/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Falling Numbers - 2048 puzzle",
-      "route": "/falling-numbers-2048-puzzle",
-      "sourceSlug": "falling-numbers-2048-puzzle",
-      "embedUrl": "https://play.gamepix.com/falling-numbers-2048-puzzle/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Farm 2048",
-      "route": "/farm-2048",
-      "sourceSlug": "farm-2048",
-      "embedUrl": "https://play.gamepix.com/farm-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Fit Cats",
-      "route": "/fit-cats",
-      "sourceSlug": "fit-cats",
-      "embedUrl": "https://play.gamepix.com/fit-cats/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Fruit Festival",
-      "route": "/fruit-festival",
-      "sourceSlug": "fruit-festival",
-      "embedUrl": "https://play.gamepix.com/fruit-festival/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Fruit Party",
-      "route": "/fruit-party",
-      "sourceSlug": "fruit-party",
-      "embedUrl": "https://play.gamepix.com/fruit-party/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Fruity Pop",
-      "route": "/fruity-pop",
-      "sourceSlug": "fruity-pop",
-      "embedUrl": "https://play.gamepix.com/fruity-pop/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Fruzzle",
-      "route": "/fruzzle",
-      "sourceSlug": "fruzzle",
-      "embedUrl": "https://play.gamepix.com/fruzzle/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Game2048",
-      "route": "/game2048",
-      "sourceSlug": "game2048",
-      "embedUrl": "https://play.gamepix.com/game2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Halloween Merge Mania",
-      "route": "/halloween-merge-mania",
-      "sourceSlug": "halloween-merge-mania",
-      "embedUrl": "https://play.gamepix.com/halloween-merge-mania/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Hex-2048",
-      "route": "/hex-2048",
-      "sourceSlug": "hex-2048",
-      "embedUrl": "https://play.gamepix.com/hex-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Hexa Merge",
-      "route": "/hexa-merge",
-      "sourceSlug": "hexa-merge",
-      "embedUrl": "https://play.gamepix.com/hexa-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Jelly Run in 2048",
-      "route": "/jelly-run-in-2048",
-      "sourceSlug": "jelly-run-in-2048",
-      "embedUrl": "https://play.gamepix.com/jelly-run-in-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Jingle Juggle Merge",
-      "route": "/jingle-juggle-merge",
-      "sourceSlug": "jingle-juggle-merge",
-      "embedUrl": "https://play.gamepix.com/jingle-juggle-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Kitchen Room Math",
-      "route": "/kitchen-room-math",
-      "sourceSlug": "kitchen-room-math",
-      "embedUrl": "https://play.gamepix.com/kitchen-room-math/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "M2 Blocks 2048",
-      "route": "/m2-blocks-2048",
-      "sourceSlug": "m2-block-2048",
-      "embedUrl": "https://play.gamepix.com/m2-block-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Magic 2048",
-      "route": "/magic-2048",
-      "sourceSlug": "magic-2048",
-      "embedUrl": "https://play.gamepix.com/magic-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Match 4",
-      "route": "/match-4",
-      "sourceSlug": "match-4",
-      "embedUrl": "https://play.gamepix.com/match-4/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Mega Watermelon Merge",
-      "route": "/mega-watermelon-merge",
-      "sourceSlug": "mega-watermelon-merge",
-      "embedUrl": "https://play.gamepix.com/mega-watermelon-merge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge and Blast 2048",
-      "route": "/merge-and-blast-2048",
-      "sourceSlug": "merge-and-blast-2048",
-      "embedUrl": "https://play.gamepix.com/merge-and-blast-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Animals",
-      "route": "/merge-animals",
-      "sourceSlug": "merge-animals",
-      "embedUrl": "https://play.gamepix.com/merge-animals/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Challenge",
-      "route": "/merge-challenge",
-      "sourceSlug": "merge-challenge",
-      "embedUrl": "https://play.gamepix.com/merge-challenge/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Craft 2048 3D Puzzle",
-      "route": "/merge-craft-2048-3d-puzzle",
-      "sourceSlug": "merge-craft-2048-3d-puzzle",
-      "embedUrl": "https://play.gamepix.com/merge-craft-2048-3d-puzzle/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Cubes",
-      "route": "/merge-cubes",
-      "sourceSlug": "merge-cubes",
-      "embedUrl": "https://play.gamepix.com/merge-cubes/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Diamonds Treasure!",
-      "route": "/merge-diamonds-treasure",
-      "sourceSlug": "merge-diamonds-treasure",
-      "embedUrl": "https://play.gamepix.com/merge-diamonds-treasure/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Dice",
-      "route": "/merge-dice",
-      "sourceSlug": "merge-dice",
-      "embedUrl": "https://play.gamepix.com/merge-dice/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Fruits 3D!",
-      "route": "/merge-fruits-3d",
-      "sourceSlug": "merge-fruits-3d",
-      "embedUrl": "https://play.gamepix.com/merge-fruits-3d/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Fruits Fold the Watermelon Original!",
-      "route": "/merge-fruits-fold-the-watermelon-original",
-      "sourceSlug": "merge-fruits-fold-the-watermelon-original",
-      "embedUrl": "https://play.gamepix.com/merge-fruits-fold-the-watermelon-original/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Grabber Race to 2048",
-      "route": "/merge-grabber-race-to-2048",
-      "sourceSlug": "merge-grabber-race-to-2048",
-      "embedUrl": "https://play.gamepix.com/merge-grabber-race-to-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Planets Space!",
-      "route": "/merge-planets-space",
-      "sourceSlug": "merge-planets-space",
-      "embedUrl": "https://play.gamepix.com/merge-planets-space/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge Rings",
-      "route": "/merge-rings",
-      "sourceSlug": "merge-rings",
-      "embedUrl": "https://play.gamepix.com/merge-rings/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
       "title": "Merge Royal",
-      "route": "/merge-royal",
+      "route": "/games/merge-royal",
       "sourceSlug": "merge-royal",
       "embedUrl": "https://play.gamepix.com/merge-royal/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "Merge Small Fruits",
-      "route": "/merge-small-fruits",
-      "sourceSlug": "merge-small-fruits",
-      "embedUrl": "https://play.gamepix.com/merge-small-fruits/embed?sid=724L4",
+      "title": "2048",
+      "route": "/",
+      "sourceSlug": "2048",
+      "embedUrl": "https://play.gamepix.com/2048/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "Merge Squares",
-      "route": "/merge-squares",
-      "sourceSlug": "merge-squares",
-      "embedUrl": "https://play.gamepix.com/merge-squares/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge the Balls 2048 Billiards!",
-      "route": "/merge-the-balls-2048-billiards",
-      "sourceSlug": "merge-the-balls-2048-billiards",
-      "embedUrl": "https://play.gamepix.com/merge-the-balls-2048-billiards/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merge the Coins USSR!",
-      "route": "/merge-the-coins-ussr",
-      "sourceSlug": "merge-the-coins-ussr",
-      "embedUrl": "https://play.gamepix.com/merge-the-coins-ussr/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Merging Easter Eggs",
-      "route": "/merging-easter-eggs",
-      "sourceSlug": "merging-easter-eggs",
-      "embedUrl": "https://play.gamepix.com/merging-easter-eggs/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Number Bubble Shooter",
-      "route": "/number-bubble-shooter",
-      "sourceSlug": "number-bubble-shooter",
-      "embedUrl": "https://play.gamepix.com/number-bubble-shooter/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Number Merge - Addictive",
-      "route": "/number-merge-addictive",
-      "sourceSlug": "number-merge-addictive",
-      "embedUrl": "https://play.gamepix.com/number-merge-addictive/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Number Nexus",
-      "route": "/number-nexus",
-      "sourceSlug": "number-nexus",
-      "embedUrl": "https://play.gamepix.com/number-nexus/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Pizza Maker 2048",
-      "route": "/pizza-maker-2048",
-      "sourceSlug": "pizza-mker-2048",
-      "embedUrl": "https://play.gamepix.com/pizza-mker-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Rebel 2048",
-      "route": "/rebel-2048",
-      "sourceSlug": "rebel-2048",
-      "embedUrl": "https://play.gamepix.com/rebel-2048/embed?sid=724L4",
-      "category": "2048"
-    },
-    {
-      "title": "Shockwaves",
-      "route": "/shockwaves",
-      "sourceSlug": "shockwaves",
-      "embedUrl": "https://play.gamepix.com/shockwaves/embed?sid=724L4",
+      "title": "2048 X2 Merge Blocks",
+      "route": "/games/2048-x2-merge-blocks",
+      "sourceSlug": "2048-x2-merge-blocks",
+      "embedUrl": "https://play.gamepix.com/2048-x2-merge-blocks/embed?sid=724L4",
       "category": "2048"
     },
     {
       "title": "Snake 2048.io",
-      "route": "/snake-2048-io",
+      "route": "/games/snake-2048-io",
       "sourceSlug": "snake-2048-io",
       "embedUrl": "https://play.gamepix.com/snake-2048-io/embed?sid=724L4",
       "category": "2048"
     },
     {
+      "title": "2048 Classic Puzzle - Challenge",
+      "route": "/games/2048-classic-puzzle-challenge",
+      "sourceSlug": "2048-classic-puzzle-challenge",
+      "embedUrl": "https://play.gamepix.com/2048-classic-puzzle-challenge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Cube Run",
+      "route": "/games/2048-cube-run",
+      "sourceSlug": "2048-cube-run",
+      "embedUrl": "https://play.gamepix.com/2048-cube-run/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Falling Blocks 2048 - 2D",
+      "route": "/games/falling-blocks-2048",
+      "sourceSlug": "falling-blocks-2048",
+      "embedUrl": "https://play.gamepix.com/falling-blocks-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Grabber Race to 2048",
+      "route": "/games/merge-grabber-race-to-2048",
+      "sourceSlug": "merge-grabber-race-to-2048",
+      "embedUrl": "https://play.gamepix.com/merge-grabber-race-to-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Jelly Run in 2048",
+      "route": "/games/jelly-run-in-2048",
+      "sourceSlug": "jelly-run-in-2048",
+      "embedUrl": "https://play.gamepix.com/jelly-run-in-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Cubes",
+      "route": "/games/merge-cubes",
+      "sourceSlug": "merge-cubes",
+      "embedUrl": "https://play.gamepix.com/merge-cubes/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 - FNAF",
+      "route": "/games/2048-fnaf",
+      "sourceSlug": "2048-fnaf",
+      "embedUrl": "https://play.gamepix.com/2048-fnaf/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Match 4",
+      "route": "/games/match-4",
+      "sourceSlug": "match-4",
+      "embedUrl": "https://play.gamepix.com/match-4/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Chain Cube 2048 3D",
+      "route": "/games/chain-cube-2048-3d-1",
+      "sourceSlug": "chain-cube-2048-3d-1",
+      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-1/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Falling Numbers - 2048 puzzle",
+      "route": "/games/falling-numbers-2048-puzzle",
+      "sourceSlug": "falling-numbers-2048-puzzle",
+      "embedUrl": "https://play.gamepix.com/falling-numbers-2048-puzzle/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
       "title": "Solitaire Puzzle 2048",
-      "route": "/solitaire-puzzle-2048",
+      "route": "/games/solitaire-puzzle-2048",
       "sourceSlug": "solitaire-puzzle-2048",
       "embedUrl": "https://play.gamepix.com/solitaire-puzzle-2048/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "Stick Number",
-      "route": "/stick-number",
-      "sourceSlug": "stick-number",
-      "embedUrl": "https://play.gamepix.com/stick-number/embed?sid=724L4",
+      "title": "Merge Cubes 2048 3D",
+      "route": "/games/merge-cubes-2048-3d",
+      "sourceSlug": "merge-cubes-2048-3d",
+      "embedUrl": "https://play.gamepix.com/merge-cubes-2048-3d/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "SugarRushPaths",
-      "route": "/sugarrushpaths",
-      "sourceSlug": "sugarrushpaths",
-      "embedUrl": "https://play.gamepix.com/sugarrushpaths/embed?sid=724L4",
+      "title": "Falling Fruits",
+      "route": "/games/falling-fruits",
+      "sourceSlug": "falling-fruits",
+      "embedUrl": "https://play.gamepix.com/falling-fruits/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "Tung Tung Sahur Play With Number",
-      "route": "/tung-tung-sahur-play-with-number",
-      "sourceSlug": "tung-tung-sahur-play-with-number",
-      "embedUrl": "https://play.gamepix.com/tung-tung-sahur-play-with-number/embed?sid=724L4",
+      "title": "Fruit Festival",
+      "route": "/games/fruit-festival",
+      "sourceSlug": "fruit-festival",
+      "embedUrl": "https://play.gamepix.com/fruit-festival/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "Watermelon merge",
-      "route": "/watermelon-merge",
-      "sourceSlug": "watermelon-merge-game",
-      "embedUrl": "https://play.gamepix.com/watermelon-merge-game/embed?sid=724L4",
+      "title": "Emoji Blush",
+      "route": "/games/emoji-blush",
+      "sourceSlug": "emoji-blush",
+      "embedUrl": "https://play.gamepix.com/emoji-blush/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Number Ball",
+      "route": "/games/2048-number-ball",
+      "sourceSlug": "2048-number-ball",
+      "embedUrl": "https://play.gamepix.com/2048-number-ball/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Shockwaves",
+      "route": "/games/shockwaves",
+      "sourceSlug": "shockwaves",
+      "embedUrl": "https://play.gamepix.com/shockwaves/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Drop the Number - Merge Game",
+      "route": "/games/drop-the-number-merge-game",
+      "sourceSlug": "drop-the-number-merge-game",
+      "embedUrl": "https://play.gamepix.com/drop-the-number-merge-game/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Fruity Pop",
+      "route": "/games/fruity-pop",
+      "sourceSlug": "fruity-pop",
+      "embedUrl": "https://play.gamepix.com/fruity-pop/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Fit Cats",
+      "route": "/games/fit-cats",
+      "sourceSlug": "fit-cats",
+      "embedUrl": "https://play.gamepix.com/fit-cats/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Drag and Drop",
+      "route": "/games/2048-drag-and-drop",
+      "sourceSlug": "2048-drag-and-drop",
+      "embedUrl": "https://play.gamepix.com/2048-drag-and-drop/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Cube Merge Block",
+      "route": "/games/2048-cube",
+      "sourceSlug": "2048-cube",
+      "embedUrl": "https://play.gamepix.com/2048-cube/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Hex Chain Merge",
+      "route": "/games/2048-hex-chain-merge",
+      "sourceSlug": "2048-hex-chain-merge",
+      "embedUrl": "https://play.gamepix.com/2048-hex-chain-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Chain Cube 2048 3D Merge Game",
+      "route": "/games/chain-cube-2048-3d-merge-game",
+      "sourceSlug": "chain-cube-2048-3d-merge-game",
+      "embedUrl": "https://play.gamepix.com/chain-cube-2048-3d-merge-game/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Planets Space!",
+      "route": "/games/merge-planets-space",
+      "sourceSlug": "merge-planets-space",
+      "embedUrl": "https://play.gamepix.com/merge-planets-space/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Physical Balls 2048",
+      "route": "/games/physical-balls-2048",
+      "sourceSlug": "physical-balls-2048",
+      "embedUrl": "https://play.gamepix.com/physical-balls-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Clicker",
+      "route": "/games/2048-clicker",
+      "sourceSlug": "2048-clicker",
+      "embedUrl": "https://play.gamepix.com/2048-clicker/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Ballz",
+      "route": "/games/2048-ballz",
+      "sourceSlug": "2048-ballz",
+      "embedUrl": "https://play.gamepix.com/2048-ballz/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Rings",
+      "route": "/games/merge-rings",
+      "sourceSlug": "merge-rings",
+      "embedUrl": "https://play.gamepix.com/merge-rings/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Flappy 2048",
+      "route": "/games/flappy-2048",
+      "sourceSlug": "flappy-2048",
+      "embedUrl": "https://play.gamepix.com/flappy-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge and Blast 2048",
+      "route": "/games/merge-and-blast-2048",
+      "sourceSlug": "merge-and-blast-2048",
+      "embedUrl": "https://play.gamepix.com/merge-and-blast-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Merge",
+      "route": "/games/2048-merge",
+      "sourceSlug": "2048-merge",
+      "embedUrl": "https://play.gamepix.com/2048-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Dice",
+      "route": "/games/merge-dice",
+      "sourceSlug": "merge-dice",
+      "embedUrl": "https://play.gamepix.com/merge-dice/embed?sid=724L4",
       "category": "2048"
     },
     {
       "title": "Watermelon Merge",
-      "route": "/watermelon-merge",
+      "route": "/games/watermelon-merge",
       "sourceSlug": "watermelon-merge",
       "embedUrl": "https://play.gamepix.com/watermelon-merge/embed?sid=724L4",
       "category": "2048"
     },
     {
+      "title": "Hexa Merge",
+      "route": "/games/hexa-merge",
+      "sourceSlug": "hexa-merge",
+      "embedUrl": "https://play.gamepix.com/hexa-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 - Link 'n Merge",
+      "route": "/games/2048-link-n-merge",
+      "sourceSlug": "2048-link-n-merge",
+      "embedUrl": "https://play.gamepix.com/2048-link-n-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Craft 2048 3D Puzzle",
+      "route": "/games/merge-craft-2048-3d-puzzle",
+      "sourceSlug": "merge-craft-2048-3d-puzzle",
+      "embedUrl": "https://play.gamepix.com/merge-craft-2048-3d-puzzle/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Match Balls",
+      "route": "/games/2048-match-balls",
+      "sourceSlug": "2048-match-balls",
+      "embedUrl": "https://play.gamepix.com/2048-match-balls/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048ColourBalls",
+      "route": "/games/2048colourballs",
+      "sourceSlug": "2048colourballs",
+      "embedUrl": "https://play.gamepix.com/2048colourballs/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Mega Watermelon Merge",
+      "route": "/games/mega-watermelon-merge",
+      "sourceSlug": "mega-watermelon-merge",
+      "embedUrl": "https://play.gamepix.com/mega-watermelon-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Balls Puzzle",
+      "route": "/games/2048-balls-puzzle",
+      "sourceSlug": "2048-balls-puzzle",
+      "embedUrl": "https://play.gamepix.com/2048-balls-puzzle/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge the Coins USSR!",
+      "route": "/games/merge-the-coins-ussr",
+      "sourceSlug": "merge-the-coins-ussr",
+      "embedUrl": "https://play.gamepix.com/merge-the-coins-ussr/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Wood Block",
+      "route": "/games/2048-wood-block",
+      "sourceSlug": "2048-wood-block",
+      "embedUrl": "https://play.gamepix.com/2048-wood-block/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Number Match",
+      "route": "/games/2048-number-match",
+      "sourceSlug": "2048-number-match",
+      "embedUrl": "https://play.gamepix.com/2048-number-match/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Collection Of Classic Puzzles - 2048 - 10x10",
+      "route": "/games/collection-of-classic-puzzles-2048-10x10",
+      "sourceSlug": "collection-of-classic-puzzles-2048-10x10",
+      "embedUrl": "https://play.gamepix.com/collection-of-classic-puzzles-2048-10x10/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Stacktris 2048",
+      "route": "/games/stacktris-2048",
+      "sourceSlug": "stacktris-2048",
+      "embedUrl": "https://play.gamepix.com/stacktris-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Double the Numbers",
+      "route": "/games/double-the-numbers",
+      "sourceSlug": "double-the-numbers",
+      "embedUrl": "https://play.gamepix.com/double-the-numbers/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Clay 2048",
+      "route": "/games/clay-2048",
+      "sourceSlug": "clay-2048",
+      "embedUrl": "https://play.gamepix.com/clay-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "20482048",
+      "route": "/games/2048-2048",
+      "sourceSlug": "2048-2048",
+      "embedUrl": "https://play.gamepix.com/2048-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Foodies",
+      "route": "/games/2048-foodies",
+      "sourceSlug": "2048-foodies",
+      "embedUrl": "https://play.gamepix.com/2048-foodies/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 - Blocks Destruction",
+      "route": "/games/2048-blocks-destruction",
+      "sourceSlug": "2048-blocks-destruction",
+      "embedUrl": "https://play.gamepix.com/2048-blocks-destruction/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Fruit Party",
+      "route": "/games/fruit-party",
+      "sourceSlug": "fruit-party",
+      "embedUrl": "https://play.gamepix.com/fruit-party/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Small Fruits",
+      "route": "/games/merge-small-fruits",
+      "sourceSlug": "merge-small-fruits",
+      "embedUrl": "https://play.gamepix.com/merge-small-fruits/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merging Easter Eggs",
+      "route": "/games/merging-easter-eggs",
+      "sourceSlug": "merging-easter-eggs",
+      "embedUrl": "https://play.gamepix.com/merging-easter-eggs/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Double Up",
+      "route": "/games/double-up",
+      "sourceSlug": "double-up",
+      "embedUrl": "https://play.gamepix.com/double-up/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Level 12",
+      "route": "/games/2048-level-12",
+      "sourceSlug": "2048-level-12",
+      "embedUrl": "https://play.gamepix.com/2048-level-12/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Tung Tung Sahur Play With Number",
+      "route": "/games/tung-tung-sahur-play-with-number",
+      "sourceSlug": "tung-tung-sahur-play-with-number",
+      "embedUrl": "https://play.gamepix.com/tung-tung-sahur-play-with-number/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Animal Stackers",
+      "route": "/games/animal-stacker",
+      "sourceSlug": "animal-stacker",
+      "embedUrl": "https://play.gamepix.com/animal-stacker/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Halloween Merge Mania",
+      "route": "/games/halloween-merge-mania",
+      "sourceSlug": "halloween-merge-mania",
+      "embedUrl": "https://play.gamepix.com/halloween-merge-mania/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Fruzzle",
+      "route": "/games/fruzzle",
+      "sourceSlug": "fruzzle",
+      "embedUrl": "https://play.gamepix.com/fruzzle/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Dimensional Rift 2048",
+      "route": "/games/dimensional-rift-2048",
+      "sourceSlug": "dimensional-rift-2048",
+      "embedUrl": "https://play.gamepix.com/dimensional-rift-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Pizza Maker 2048",
+      "route": "/games/pizza-mker-2048",
+      "sourceSlug": "pizza-mker-2048",
+      "embedUrl": "https://play.gamepix.com/pizza-mker-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Animals",
+      "route": "/games/2048-animals",
+      "sourceSlug": "2048-animals",
+      "embedUrl": "https://play.gamepix.com/2048-animals/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Dice Puzzle Fruits",
+      "route": "/games/dice-puzzle-fruits",
+      "sourceSlug": "dice-puzzle-fruits",
+      "embedUrl": "https://play.gamepix.com/dice-puzzle-fruits/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "SugarRushPaths",
+      "route": "/games/sugarrushpaths",
+      "sourceSlug": "sugarrushpaths",
+      "embedUrl": "https://play.gamepix.com/sugarrushpaths/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Watermelon merge",
+      "route": "/games/watermelon-merge-game",
+      "sourceSlug": "watermelon-merge-game",
+      "embedUrl": "https://play.gamepix.com/watermelon-merge-game/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Cubatoria Merge 2048",
+      "route": "/games/cubatoria-merge-2048",
+      "sourceSlug": "cubatoria-merge-2048",
+      "embedUrl": "https://play.gamepix.com/cubatoria-merge-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Champion",
+      "route": "/games/2048-champion",
+      "sourceSlug": "2048-champion",
+      "embedUrl": "https://play.gamepix.com/2048-champion/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Blend Fruits",
+      "route": "/games/blend-fruits",
+      "sourceSlug": "blend-fruits",
+      "embedUrl": "https://play.gamepix.com/blend-fruits/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Magic 2048",
+      "route": "/games/magic-2048",
+      "sourceSlug": "magic-2048",
+      "embedUrl": "https://play.gamepix.com/magic-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "M2 Blocks 2048",
+      "route": "/games/m2-block-2048",
+      "sourceSlug": "m2-block-2048",
+      "embedUrl": "https://play.gamepix.com/m2-block-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Atomic Merge 2048",
+      "route": "/games/atomic-merge-2048",
+      "sourceSlug": "atomic-merge-2048",
+      "embedUrl": "https://play.gamepix.com/atomic-merge-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Kitchen Room Math",
+      "route": "/games/kitchen-room-math",
+      "sourceSlug": "kitchen-room-math",
+      "embedUrl": "https://play.gamepix.com/kitchen-room-math/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Dogs",
+      "route": "/games/2048-plus",
+      "sourceSlug": "2048-plus",
+      "embedUrl": "https://play.gamepix.com/2048-plus/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Block 2048",
+      "route": "/games/block-2048",
+      "sourceSlug": "block-2048",
+      "embedUrl": "https://play.gamepix.com/block-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Dice Puzzles Flowers!",
+      "route": "/games/dice-puzzles-flowers",
+      "sourceSlug": "dice-puzzles-flowers",
+      "embedUrl": "https://play.gamepix.com/dice-puzzles-flowers/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge the Balls 2048 Billiards!",
+      "route": "/games/merge-the-balls-2048-billiards",
+      "sourceSlug": "merge-the-balls-2048-billiards",
+      "embedUrl": "https://play.gamepix.com/merge-the-balls-2048-billiards/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Fish in 2048!",
+      "route": "/games/merge-fish-in-2048",
+      "sourceSlug": "merge-fish-in-2048",
+      "embedUrl": "https://play.gamepix.com/merge-fish-in-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Squares",
+      "route": "/games/merge-squares",
+      "sourceSlug": "merge-squares",
+      "embedUrl": "https://play.gamepix.com/merge-squares/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Drop N Merge",
+      "route": "/games/drop-n-merge",
+      "sourceSlug": "drop-n-merge",
+      "embedUrl": "https://play.gamepix.com/drop-n-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Legend",
+      "route": "/games/2048-legend",
+      "sourceSlug": "2048-legend",
+      "embedUrl": "https://play.gamepix.com/2048-legend/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Magic Hex",
+      "route": "/games/2048-magic-hex",
+      "sourceSlug": "2048-magic-hex",
+      "embedUrl": "https://play.gamepix.com/2048-magic-hex/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Number Bubble Shooter",
+      "route": "/games/number-bubble-shooter",
+      "sourceSlug": "number-bubble-shooter",
+      "embedUrl": "https://play.gamepix.com/number-bubble-shooter/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Hex-2048",
+      "route": "/games/hex-2048",
+      "sourceSlug": "hex-2048",
+      "embedUrl": "https://play.gamepix.com/hex-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Blocks Merge Puzzle 2048",
+      "route": "/games/blocks-merge-puzzle-2048",
+      "sourceSlug": "blocks-merge-puzzle-2048",
+      "embedUrl": "https://play.gamepix.com/blocks-merge-puzzle-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Number Nexus",
+      "route": "/games/number-nexus",
+      "sourceSlug": "number-nexus",
+      "embedUrl": "https://play.gamepix.com/number-nexus/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Farm 2048",
+      "route": "/games/farm-2048",
+      "sourceSlug": "farm-2048",
+      "embedUrl": "https://play.gamepix.com/farm-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Sea Vehicles",
+      "route": "/games/2048-sea-vehicles",
+      "sourceSlug": "2048-sea-vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-sea-vehicles/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Air Vehicles",
+      "route": "/games/2048-air-vehicles",
+      "sourceSlug": "2048-air-vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-air-vehicles/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Land Vehicles",
+      "route": "/games/2048-land-vehicles",
+      "sourceSlug": "2048-land-vehicles",
+      "embedUrl": "https://play.gamepix.com/2048-land-vehicles/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Animal Match 2",
+      "route": "/games/animal-match-2",
+      "sourceSlug": "animal-match-2",
+      "embedUrl": "https://play.gamepix.com/animal-match-2/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Puzzle Challenge - Number Merge Mania!",
+      "route": "/games/2048-puzzle-challenge-number-merge-mania",
+      "sourceSlug": "2048-puzzle-challenge-number-merge-mania",
+      "embedUrl": "https://play.gamepix.com/2048-puzzle-challenge-number-merge-mania/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Animals",
+      "route": "/games/merge-animals",
+      "sourceSlug": "merge-animals",
+      "embedUrl": "https://play.gamepix.com/merge-animals/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Mushrooms 2048!",
+      "route": "/games/merge-mushrooms-2048",
+      "sourceSlug": "merge-mushrooms-2048",
+      "embedUrl": "https://play.gamepix.com/merge-mushrooms-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "ZooZoo Merge",
+      "route": "/games/zoozoo-drop",
+      "sourceSlug": "zoozoo-drop",
+      "embedUrl": "https://play.gamepix.com/zoozoo-drop/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Stick Number",
+      "route": "/games/stick-number",
+      "sourceSlug": "stick-number",
+      "embedUrl": "https://play.gamepix.com/stick-number/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Game2048",
+      "route": "/games/game2048",
+      "sourceSlug": "game2048",
+      "embedUrl": "https://play.gamepix.com/game2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Classic 2048 - Cubes",
+      "route": "/games/classic-2048-cubes",
+      "sourceSlug": "classic-2048-cubes",
+      "embedUrl": "https://play.gamepix.com/classic-2048-cubes/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Alien Merge 2048",
+      "route": "/games/alien-merge-2048",
+      "sourceSlug": "alien-merge-2048",
+      "embedUrl": "https://play.gamepix.com/alien-merge-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Challenge",
+      "route": "/games/merge-challenge",
+      "sourceSlug": "merge-challenge",
+      "embedUrl": "https://play.gamepix.com/merge-challenge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 X2 Legend",
+      "route": "/games/2048-x2-legend",
+      "sourceSlug": "2048-x2-legend",
+      "embedUrl": "https://play.gamepix.com/2048-x2-legend/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Caterfall 2048",
+      "route": "/games/caterfall-2048",
+      "sourceSlug": "caterfall-2048",
+      "embedUrl": "https://play.gamepix.com/caterfall-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Emoji 2048",
+      "route": "/games/emoji-2048",
+      "sourceSlug": "emoji-2048",
+      "embedUrl": "https://play.gamepix.com/emoji-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Rebel 2048",
+      "route": "/games/rebel-2048",
+      "sourceSlug": "rebel-2048",
+      "embedUrl": "https://play.gamepix.com/rebel-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Triangles Dots 2048",
+      "route": "/games/triangles-dots-2048",
+      "sourceSlug": "triangles-dots-2048",
+      "embedUrl": "https://play.gamepix.com/triangles-dots-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
       "title": "Wings 2048",
-      "route": "/wings-2048",
+      "route": "/games/wings-2048",
       "sourceSlug": "wings-2048",
       "embedUrl": "https://play.gamepix.com/wings-2048/embed?sid=724L4",
       "category": "2048"
     },
     {
-      "title": "ZooZoo Merge",
-      "route": "/zoozoo-merge",
-      "sourceSlug": "zoozoo-drop",
-      "embedUrl": "https://play.gamepix.com/zoozoo-drop/embed?sid=724L4",
+      "title": "2048 Number Merge",
+      "route": "/games/2048-number-merge",
+      "sourceSlug": "2048-number-merge",
+      "embedUrl": "https://play.gamepix.com/2048-number-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Number Merge - Addictive",
+      "route": "/games/number-merge-addictive",
+      "sourceSlug": "number-merge-addictive",
+      "embedUrl": "https://play.gamepix.com/number-merge-addictive/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Bubble Shoot Merge Box 2048",
+      "route": "/games/bubble-shoot-merge-box-2048",
+      "sourceSlug": "bubble-shoot-merge-box-2048",
+      "embedUrl": "https://play.gamepix.com/bubble-shoot-merge-box-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Merge Number Blocks",
+      "route": "/games/2048-merge-number-blocks",
+      "sourceSlug": "2048-merge-number-blocks",
+      "embedUrl": "https://play.gamepix.com/2048-merge-number-blocks/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Block Mania 2048",
+      "route": "/games/block-mania-2048",
+      "sourceSlug": "block-mania-2048",
+      "embedUrl": "https://play.gamepix.com/block-mania-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Fruits 3D!",
+      "route": "/games/merge-fruits-3d",
+      "sourceSlug": "merge-fruits-3d",
+      "embedUrl": "https://play.gamepix.com/merge-fruits-3d/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Flowers in Bubbles 2048!",
+      "route": "/games/merge-flowers-in-bubbles-2048",
+      "sourceSlug": "merge-flowers-in-bubbles-2048",
+      "embedUrl": "https://play.gamepix.com/merge-flowers-in-bubbles-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Diamonds Treasure!",
+      "route": "/games/merge-diamonds-treasure",
+      "sourceSlug": "merge-diamonds-treasure",
+      "embedUrl": "https://play.gamepix.com/merge-diamonds-treasure/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Merge Fruits Fold the Watermelon Original!",
+      "route": "/games/merge-fruits-fold-the-watermelon-original",
+      "sourceSlug": "merge-fruits-fold-the-watermelon-original",
+      "embedUrl": "https://play.gamepix.com/merge-fruits-fold-the-watermelon-original/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Jingle Juggle Merge",
+      "route": "/games/jingle-juggle-merge",
+      "sourceSlug": "jingle-juggle-merge",
+      "embedUrl": "https://play.gamepix.com/jingle-juggle-merge/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "Cute Cats 2048",
+      "route": "/games/cute-cats-2048",
+      "sourceSlug": "cute-cats-2048",
+      "embedUrl": "https://play.gamepix.com/cute-cats-2048/embed?sid=724L4",
+      "category": "2048"
+    },
+    {
+      "title": "2048 Bears",
+      "route": "/games/2048-bears",
+      "sourceSlug": "2048-bears",
+      "embedUrl": "https://play.gamepix.com/2048-bears/embed?sid=724L4",
       "category": "2048"
     }
   ]

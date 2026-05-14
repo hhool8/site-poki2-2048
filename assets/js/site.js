@@ -35,5 +35,16 @@ document.addEventListener("click", function (event) {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  var navToggle = document.getElementById("nav-toggle");
+  var navCats = document.getElementById("nav-cats");
+
+  if (navToggle && navCats) {
+    navToggle.addEventListener("click", function () {
+      var open = navCats.classList.toggle("open");
+      navToggle.classList.toggle("open", open);
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+
   mountGame();
 });
