@@ -10,6 +10,10 @@ const candidatesPath = path.join(root, 'data', 'route-candidates.json');
 const featuredPath = path.join(root, 'data', 'gamepix-2048-featured.json');
 const gamesDir = path.join(root, 'games');
 
+const HOME_TITLE = 'Play 2048 Game Online Free - 2048 Unblocked Collection';
+const HOME_DESCRIPTION = 'Play 2048 game online free in one fast hub. Discover top 2048 unblocked variants, compare hot and recent picks, and use practical tips to win 2048 more consistently.';
+const HOME_OG_DESCRIPTION = 'Play 2048 online free, explore unblocked variants, and improve with practical winning strategies.';
+
 const esc = (s) => String(s)
   .replace(/&/g, '&amp;')
   .replace(/</g, '&lt;')
@@ -118,21 +122,98 @@ const recentSection = [
   '    </section>'
 ].join('\n');
 
+const tipsSection = [
+  '    <section class="card" id="tips-and-faq">',
+  '      <h2>How to Win 2048: Strategy and FAQ</h2>',
+  '      <p>',
+  '        If you want to play 2048 game online and improve quickly, consistency matters more than speed. Keep your largest tile anchored in one corner, avoid random direction changes, and use each move to preserve board order.',
+  '      </p>',
+  '      <h3>How to beat 2048?</h3>',
+  '      <p>',
+  '        Use a fixed-corner strategy. Build a descending row toward your anchor corner and avoid breaking it for short-term merges. This reduces chaos and gives you more safe moves in the mid and late game.',
+  '      </p>',
+  '      <h3>How to win 2048 consistently?</h3>',
+  '      <p>',
+  '        Limit your default moves to three directions and keep one recovery lane open. When the board gets crowded, prioritize clearing space over chasing a big merge. Stable boards outperform aggressive boards over long sessions.',
+  '      </p>',
+  '      <h3>How do you win in 2048 when the board is almost full?</h3>',
+  '      <p>',
+  '        Slow down and plan two to three moves ahead. Target merges that open multiple cells, not just one. If you need a cleaner practice board, start with <a href="/games/2048-classic-puzzle-challenge">2048 Classic Puzzle - Challenge</a> and then switch to faster variants such as <a href="/games/2048-cube-run">2048 Cube Run</a>.',
+  '      </p>',
+  '      <h3>What is the best 2048 unblocked game for beginners?</h3>',
+  '      <p>',
+  '        Beginners should start with classic-style layouts and clear visuals. Use the hot list above to begin, then compare with recently updated variants to find a pace that matches your reaction speed.',
+  '      </p>',
+  '    </section>'
+].join('\n');
+
+const faqSchemaObject = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How to beat 2048?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Use a fixed-corner strategy, build a descending row toward that corner, and avoid breaking board structure for short-term merges.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How to win 2048 consistently?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Use three-direction play, keep one recovery lane open, and prioritize space management over risky high-value merges.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How do you win in 2048 when the board is almost full?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Plan multiple moves ahead and prioritize merges that open multiple cells. Do not force merges that break your anchor corner structure.'
+      }
+    }
+  ]
+};
+
+const faqSchemaScript = [
+  '  <script type="application/ld+json" id="faq-schema">',
+  JSON.stringify(faqSchemaObject, null, 2),
+  '  </script>'
+].join('\n');
+
 let html = fs.readFileSync(indexPath, 'utf8');
 
 html = html
   .replace(
+    /<title>[^<]*<\/title>/,
+    `<title>${HOME_TITLE}</title>`
+  )
+  .replace(
     /<link rel="stylesheet" href="assets\/css\/site\.css(\?v=\d+)?" \/>/,
-    '<link rel="stylesheet" href="assets/css/site.css?v=20260514" />'
+    '<link rel="stylesheet" href="assets/css/site.css?v=20260515" />'
   )
   .replace(
     /<meta name="description" content="[^"]*" \/>/,
-    '<meta name="description" content="Play dynamically ranked 2048 games online by hot score and recent updates. Fast loading, no download, and mobile-friendly gameplay." />'
+    `<meta name="description" content="${HOME_DESCRIPTION}" />`
+  )
+  .replace(
+    /<meta property="og:title" content="[^"]*" \/>/,
+    `<meta property="og:title" content="${HOME_TITLE}" />`
+  )
+  .replace(
+    /<meta property="og:description" content="[^"]*" \/>/,
+    `<meta property="og:description" content="${HOME_OG_DESCRIPTION}" />`
   )
   .replace(
     /<p>Start with [^<]*<\/p>/,
     `<p>Start with ${esc(hero.title)}. The game area is rendered directly for instant play.</p>`
   );
+
+html = html.replace(/\s*<script type="application\/ld\+json" id="faq-schema">[\s\S]*?<\/script>/, '');
+html = html.replace('</head>', `\n${faqSchemaScript}\n</head>`);
 
 const homeEmbed = [
   '      <div id="game-shell" class="game-shell" data-mounted="1">',
@@ -165,6 +246,14 @@ if (oldRecentRegex.test(html)) {
   }
   html = html.replace(tipsAnchor, `\n${recentSection}\n\n    <section class="card">\n      <h2>2048 Tips and Strategy for Better Scores</h2>`);
 }
+
+const oldTipsRegex = /\s*<section class="card"[^>]*>\s*<h2>(2048 Tips and Strategy for Better Scores|How to Win 2048: Strategy and FAQ)<\/h2>[\s\S]*?<\/section>/;
+if (!oldTipsRegex.test(html)) {
+  console.error('Unable to locate tips/faq section in index.html');
+  process.exit(1);
+}
+
+html = html.replace(oldTipsRegex, `\n${tipsSection}`);
 
 fs.writeFileSync(indexPath, html);
 
