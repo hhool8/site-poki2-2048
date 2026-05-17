@@ -208,6 +208,14 @@ html = html
     `<meta property="og:description" content="${HOME_OG_DESCRIPTION}" />`
   )
   .replace(
+    /<meta name="twitter:title" content="[^"]*" \/>/,
+    `<meta name="twitter:title" content="${HOME_TITLE}" />`
+  )
+  .replace(
+    /<meta name="twitter:description" content="[^"]*" \/>/,
+    `<meta name="twitter:description" content="${HOME_OG_DESCRIPTION}" />`
+  )
+  .replace(
     /<p>Start with [^<]*<\/p>/,
     `<p>Start with ${esc(hero.title)}. The game area is rendered directly for instant play.</p>`
   );

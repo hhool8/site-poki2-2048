@@ -80,6 +80,11 @@ const makePage = (game) => {
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${esc(canonical)}" />
   <meta property="og:image" content="https://img.gamepix.com/games/${esc(game.slug)}/icon/${esc(game.slug)}.png?w=640" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@poki2online" />
+  <meta name="twitter:title" content="${esc(title)}" />
+  <meta name="twitter:description" content="${esc(description)}" />
+  <meta name="twitter:image" content="https://img.gamepix.com/games/${esc(game.slug)}/icon/${esc(game.slug)}.png?w=640" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
